@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'providers/quiz_provider.dart';
 import 'screens/home_screen.dart';
-import 'utils/sample_quizzes.dart';
+import 'services/quiz_service.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,10 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) {
         final provider = QuizProvider();
-        provider.setQuizzes(sampleQuizzes);
+        // Load quizzes asynchronously
+        QuizService.loadQuizzes().then((quizzes) {
+          provider.setQuizzes(quizzes);
+        });
         return provider;
       },
       child: MaterialApp(
