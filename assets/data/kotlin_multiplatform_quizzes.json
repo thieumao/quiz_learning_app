@@ -1,0 +1,209 @@
+{
+  "category": "Kotlin Multiplatform",
+  "quizzes": [
+    {
+      "id": "kmp_beginner_1",
+      "title": "Kotlin Multiplatform Basics",
+      "description": "Test your knowledge of Kotlin Multiplatform fundamentals",
+      "difficulty": "Beginner",
+      "questions": [
+        {
+          "id": "kmpb1-1",
+          "questionText": "What is Kotlin Multiplatform (KMP)?",
+          "options": [
+            "A database management system",
+            "A UI framework",
+            "A technology that enables code sharing between platforms",
+            "A programming language"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "Kotlin Multiplatform is a technology that enables code sharing between platforms while keeping native benefits."
+        },
+        {
+          "id": "kmpb1-2",
+          "questionText": "Which platforms does Kotlin Multiplatform support?",
+          "options": [
+            "Only Android and iOS",
+            "Only web and desktop",
+            "Android, iOS, web, desktop, and more",
+            "Only mobile platforms"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "Kotlin Multiplatform supports multiple platforms including Android, iOS, web, desktop, and more."
+        },
+        {
+          "id": "kmpb1-3",
+          "questionText": "What is a common module in KMP?",
+          "options": [
+            "A module that runs only on Android",
+            "A module that contains platform-specific code",
+            "A module that contains shared code for all platforms",
+            "A module that runs only on iOS"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "A common module contains code that is shared across all platforms in a Kotlin Multiplatform project."
+        },
+        {
+          "id": "kmpb1-4",
+          "questionText": "What is the purpose of expect/actual keywords in KMP?",
+          "options": [
+            "To handle HTTP requests",
+            "To declare platform-specific implementations",
+            "To manage state",
+            "To handle animations"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "expect/actual keywords are used to declare platform-specific implementations in Kotlin Multiplatform."
+        },
+        {
+          "id": "kmpb1-5",
+          "questionText": "Which build system is commonly used with KMP?",
+          "options": [
+            "Maven",
+            "Ant",
+            "Gradle",
+            "npm"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "Gradle is the recommended build system for Kotlin Multiplatform projects."
+        }
+      ]
+    },
+    {
+      "id": "kmp_intermediate_1",
+      "title": "Kotlin Multiplatform Intermediate",
+      "description": "Intermediate concepts in Kotlin Multiplatform development",
+      "difficulty": "Intermediate",
+      "questions": [
+        {
+          "id": "kmpi1-1",
+          "questionText": "What is the purpose of Kotlin/Native in KMP?",
+          "options": [
+            "To compile Kotlin code to native binaries",
+            "To handle HTTP requests",
+            "To manage state",
+            "To handle animations"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Kotlin/Native is a technology that compiles Kotlin code to native binaries for various platforms."
+        },
+        {
+          "id": "kmpi1-2",
+          "questionText": "What is the purpose of Kotlin/JS in KMP?",
+          "options": [
+            "To compile Kotlin code to JavaScript",
+            "To handle HTTP requests",
+            "To manage state",
+            "To handle animations"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Kotlin/JS is a technology that compiles Kotlin code to JavaScript for web platforms."
+        },
+        {
+          "id": "kmpi1-3",
+          "questionText": "What is the purpose of Kotlin Serialization in KMP?",
+          "options": [
+            "To handle HTTP requests",
+            "To serialize/deserialize data",
+            "To manage state",
+            "To handle animations"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Serialization is a library that provides serialization capabilities for Kotlin Multiplatform projects."
+        },
+        {
+          "id": "kmpi1-4",
+          "questionText": "What is the purpose of Ktor in KMP?",
+          "options": [
+            "To handle HTTP requests and create web applications",
+            "To manage state",
+            "To handle animations",
+            "To compile Kotlin code"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Ktor is a framework for building asynchronous servers and clients in Kotlin Multiplatform."
+        },
+        {
+          "id": "kmpi1-5",
+          "questionText": "What is the purpose of Kotlin Coroutines in KMP?",
+          "options": [
+            "To handle asynchronous programming",
+            "To handle HTTP requests",
+            "To manage state",
+            "To handle animations"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Kotlin Coroutines is a library for asynchronous programming that works across all platforms in KMP."
+        }
+      ]
+    },
+    {
+      "id": "kmp_advanced_1",
+      "title": "Kotlin Multiplatform Advanced",
+      "description": "Advanced Kotlin Multiplatform concepts and best practices",
+      "difficulty": "Advanced",
+      "questions": [
+        {
+          "id": "kmpa1-1",
+          "questionText": "What is the purpose of Kotlin Multiplatform Mobile (KMM)?",
+          "options": [
+            "To handle HTTP requests",
+            "To share code between Android and iOS",
+            "To manage state",
+            "To handle animations"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "KMM is a subset of KMP focused on sharing code between Android and iOS platforms."
+        },
+        {
+          "id": "kmpa1-2",
+          "questionText": "What is the purpose of Kotlin/Native memory management?",
+          "options": [
+            "To handle HTTP requests",
+            "To manage memory allocation and garbage collection",
+            "To manage state",
+            "To handle animations"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin/Native uses its own memory management system to handle memory allocation and garbage collection."
+        },
+        {
+          "id": "kmpa1-3",
+          "questionText": "What is the purpose of Kotlin Multiplatform libraries?",
+          "options": [
+            "To handle HTTP requests",
+            "To provide cross-platform functionality",
+            "To manage state",
+            "To handle animations"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform libraries provide functionality that works across multiple platforms."
+        },
+        {
+          "id": "kmpa1-4",
+          "questionText": "What is the purpose of Kotlin/Native interoperability?",
+          "options": [
+            "To handle HTTP requests",
+            "To interact with platform-specific code",
+            "To manage state",
+            "To handle animations"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin/Native interoperability allows Kotlin code to interact with platform-specific code and libraries."
+        },
+        {
+          "id": "kmpa1-5",
+          "questionText": "What is the purpose of Kotlin Multiplatform testing?",
+          "options": [
+            "To handle HTTP requests",
+            "To test shared code across platforms",
+            "To manage state",
+            "To handle animations"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform testing allows you to test shared code across different platforms."
+        }
+      ]
+    }
+  ]
+} 

@@ -1,0 +1,209 @@
+{
+  "category": "iOS",
+  "quizzes": [
+    {
+      "id": "ios_beginner_1",
+      "title": "iOS Basics",
+      "description": "Test your knowledge of iOS development fundamentals",
+      "difficulty": "Beginner",
+      "questions": [
+        {
+          "id": "iosb1-1",
+          "questionText": "What is Swift?",
+          "options": [
+            "A database management system",
+            "A programming language for iOS development",
+            "A UI framework",
+            "An operating system"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Swift is a programming language developed by Apple for iOS, macOS, watchOS, and tvOS development."
+        },
+        {
+          "id": "iosb1-2",
+          "questionText": "What is UIKit?",
+          "options": [
+            "A database framework",
+            "A UI framework for iOS development",
+            "A networking library",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "UIKit is a framework that provides the required infrastructure for iOS apps, including UI components and event handling."
+        },
+        {
+          "id": "iosb1-3",
+          "questionText": "What is Auto Layout?",
+          "options": [
+            "A database system",
+            "A layout system that automatically adjusts UI elements",
+            "A networking protocol",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Auto Layout is a layout system that automatically calculates the size and position of UI elements based on constraints."
+        },
+        {
+          "id": "iosb1-4",
+          "questionText": "What is a View Controller?",
+          "options": [
+            "A database controller",
+            "A controller that manages a view and its subviews",
+            "A networking controller",
+            "A testing controller"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A View Controller manages a view and its subviews, handling user interactions and view lifecycle events."
+        },
+        {
+          "id": "iosb1-5",
+          "questionText": "What is the App Delegate?",
+          "options": [
+            "A database delegate",
+            "An object that handles app-level events",
+            "A networking delegate",
+            "A testing delegate"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "The App Delegate is an object that handles app-level events and manages the app's lifecycle."
+        }
+      ]
+    },
+    {
+      "id": "ios_intermediate_1",
+      "title": "iOS Intermediate",
+      "description": "Intermediate concepts in iOS development",
+      "difficulty": "Intermediate",
+      "questions": [
+        {
+          "id": "iosi1-1",
+          "questionText": "What is SwiftUI?",
+          "options": [
+            "A database framework",
+            "A declarative UI framework",
+            "A networking library",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "SwiftUI is a declarative UI framework that allows you to build user interfaces using Swift code."
+        },
+        {
+          "id": "iosi1-2",
+          "questionText": "What is Combine?",
+          "options": [
+            "A database framework",
+            "A framework for handling asynchronous events",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Combine is a framework that provides a declarative way to handle asynchronous events and data streams."
+        },
+        {
+          "id": "iosi1-3",
+          "questionText": "What is Core Data?",
+          "options": [
+            "A UI framework",
+            "A framework for data persistence",
+            "A networking library",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Core Data is a framework that provides data persistence and object graph management."
+        },
+        {
+          "id": "iosi1-4",
+          "questionText": "What is URLSession?",
+          "options": [
+            "A database framework",
+            "A framework for network requests",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "URLSession is a framework that provides APIs for downloading and uploading data to and from web services."
+        },
+        {
+          "id": "iosi1-5",
+          "questionText": "What is Grand Central Dispatch (GCD)?",
+          "options": [
+            "A database framework",
+            "A framework for concurrent programming",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Grand Central Dispatch is a framework that provides APIs for concurrent programming and task management."
+        }
+      ]
+    },
+    {
+      "id": "ios_advanced_1",
+      "title": "iOS Advanced",
+      "description": "Advanced iOS development concepts and best practices",
+      "difficulty": "Advanced",
+      "questions": [
+        {
+          "id": "iosa1-1",
+          "questionText": "What is Metal?",
+          "options": [
+            "A database framework",
+            "A framework for graphics and compute",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Metal is a framework that provides low-level access to the GPU for graphics and compute tasks."
+        },
+        {
+          "id": "iosa1-2",
+          "questionText": "What is Core Animation?",
+          "options": [
+            "A database framework",
+            "A framework for advanced animations",
+            "A networking library",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Core Animation is a framework that provides advanced animation capabilities for iOS apps."
+        },
+        {
+          "id": "iosa1-3",
+          "questionText": "What is Instruments?",
+          "options": [
+            "A database framework",
+            "A performance analysis tool",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Instruments is a performance analysis tool that helps identify and fix performance issues in iOS apps."
+        },
+        {
+          "id": "iosa1-4",
+          "questionText": "What is TestFlight?",
+          "options": [
+            "A database framework",
+            "A beta testing platform",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "TestFlight is Apple's platform for beta testing iOS apps before releasing them to the App Store."
+        },
+        {
+          "id": "iosa1-5",
+          "questionText": "What is App Store Connect?",
+          "options": [
+            "A database framework",
+            "A platform for managing app distribution",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "App Store Connect is a platform for managing app distribution, analytics, and user feedback."
+        }
+      ]
+    }
+  ]
+} 

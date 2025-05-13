@@ -1,0 +1,209 @@
+{
+  "category": "Android",
+  "quizzes": [
+    {
+      "id": "android_beginner_1",
+      "title": "Android Basics",
+      "description": "Test your knowledge of Android development fundamentals",
+      "difficulty": "Beginner",
+      "questions": [
+        {
+          "id": "ab1-1",
+          "questionText": "What is Android?",
+          "options": [
+            "A database management system",
+            "A mobile operating system",
+            "A programming language",
+            "A UI framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android is a mobile operating system developed by Google, based on the Linux kernel."
+        },
+        {
+          "id": "ab1-2",
+          "questionText": "What is an Activity in Android?",
+          "options": [
+            "A database component",
+            "A screen in an Android app",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "An Activity is a single screen in an Android app that users can interact with."
+        },
+        {
+          "id": "ab1-3",
+          "questionText": "What is a Layout in Android?",
+          "options": [
+            "A database structure",
+            "A structure that defines the UI for an Activity",
+            "A networking protocol",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A Layout defines the structure and appearance of the UI for an Activity in Android."
+        },
+        {
+          "id": "ab1-4",
+          "questionText": "What is the Android Manifest?",
+          "options": [
+            "A database configuration file",
+            "A configuration file that describes the app",
+            "A networking configuration",
+            "A testing configuration"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "The Android Manifest is a configuration file that describes essential information about the app to the Android system."
+        },
+        {
+          "id": "ab1-5",
+          "questionText": "What is a Fragment in Android?",
+          "options": [
+            "A database component",
+            "A reusable UI component",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A Fragment is a reusable UI component that represents a portion of a user interface in an Activity."
+        }
+      ]
+    },
+    {
+      "id": "android_intermediate_1",
+      "title": "Android Intermediate",
+      "description": "Intermediate concepts in Android development",
+      "difficulty": "Intermediate",
+      "questions": [
+        {
+          "id": "ai1-1",
+          "questionText": "What is ViewModel?",
+          "options": [
+            "A database component",
+            "A component that manages UI-related data",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "ViewModel is a component that manages UI-related data and survives configuration changes."
+        },
+        {
+          "id": "ai1-2",
+          "questionText": "What is LiveData?",
+          "options": [
+            "A database component",
+            "An observable data holder",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "LiveData is an observable data holder that is lifecycle-aware and can be observed by UI components."
+        },
+        {
+          "id": "ai1-3",
+          "questionText": "What is Room?",
+          "options": [
+            "A UI framework",
+            "A persistence library for SQLite",
+            "A networking library",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Room is a persistence library that provides an abstraction layer over SQLite for local data storage."
+        },
+        {
+          "id": "ai1-4",
+          "questionText": "What is Retrofit?",
+          "options": [
+            "A database framework",
+            "A type-safe HTTP client",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Retrofit is a type-safe HTTP client for Android that makes it easy to consume RESTful web services."
+        },
+        {
+          "id": "ai1-5",
+          "questionText": "What is Coroutines?",
+          "options": [
+            "A database framework",
+            "A library for asynchronous programming",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Coroutines is a library that provides a way to write asynchronous code in a sequential manner."
+        }
+      ]
+    },
+    {
+      "id": "android_advanced_1",
+      "title": "Android Advanced",
+      "description": "Advanced Android development concepts and best practices",
+      "difficulty": "Advanced",
+      "questions": [
+        {
+          "id": "aaa1-1",
+          "questionText": "What is Jetpack Compose?",
+          "options": [
+            "A database framework",
+            "A modern UI toolkit",
+            "A networking library",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Jetpack Compose is a modern UI toolkit for building native Android UI using Kotlin."
+        },
+        {
+          "id": "aaa1-2",
+          "questionText": "What is Hilt?",
+          "options": [
+            "A database framework",
+            "A dependency injection library",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Hilt is a dependency injection library for Android that reduces boilerplate code."
+        },
+        {
+          "id": "aaa1-3",
+          "questionText": "What is WorkManager?",
+          "options": [
+            "A database framework",
+            "A library for background tasks",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "WorkManager is a library that helps manage background tasks that need to run even if the app is closed."
+        },
+        {
+          "id": "aaa1-4",
+          "questionText": "What is Navigation Component?",
+          "options": [
+            "A database framework",
+            "A framework for app navigation",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Navigation Component is a framework that helps implement navigation between destinations in an app."
+        },
+        {
+          "id": "aaa1-5",
+          "questionText": "What is DataStore?",
+          "options": [
+            "A UI framework",
+            "A data storage solution",
+            "A networking library",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "DataStore is a data storage solution that allows you to store key-value pairs or typed objects."
+        }
+      ]
+    }
+  ]
+} 

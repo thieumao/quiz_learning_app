@@ -1,0 +1,209 @@
+{
+  "category": "React Native",
+  "quizzes": [
+    {
+      "id": "rn_beginner_1",
+      "title": "React Native Basics",
+      "description": "Test your knowledge of React Native fundamentals",
+      "difficulty": "Beginner",
+      "questions": [
+        {
+          "id": "rnb1-1",
+          "questionText": "What is React Native?",
+          "options": [
+            "A JavaScript library for building user interfaces",
+            "A framework for building native mobile apps using React",
+            "A database management system",
+            "A programming language"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "React Native is a framework that allows you to build native mobile applications using React and JavaScript."
+        },
+        {
+          "id": "rnb1-2",
+          "questionText": "Which command is used to create a new React Native project?",
+          "options": [
+            "create-react-native-app",
+            "npx react-native init",
+            "npm create-react-native",
+            "yarn create-react-native"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "npx react-native init is the standard command to create a new React Native project."
+        },
+        {
+          "id": "rnb1-3",
+          "questionText": "What is the basic building block of a React Native UI?",
+          "options": [
+            "Component",
+            "Element",
+            "View",
+            "Screen"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Components are the basic building blocks of React Native UI. They can be functional or class-based."
+        },
+        {
+          "id": "rnb1-4",
+          "questionText": "Which component is used to create a scrollable list in React Native?",
+          "options": [
+            "ScrollView",
+            "ListView",
+            "FlatList",
+            "SectionList"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "FlatList is the recommended component for creating scrollable lists in React Native as it has better performance than ScrollView."
+        },
+        {
+          "id": "rnb1-5",
+          "questionText": "How do you style components in React Native?",
+          "options": [
+            "Using CSS files",
+            "Using inline styles or StyleSheet.create()",
+            "Using styled-components only",
+            "Using HTML classes"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "React Native uses JavaScript objects for styling, either inline or through StyleSheet.create()."
+        }
+      ]
+    },
+    {
+      "id": "rn_intermediate_1",
+      "title": "React Native Intermediate",
+      "description": "Intermediate concepts in React Native development",
+      "difficulty": "Intermediate",
+      "questions": [
+        {
+          "id": "rni1-1",
+          "questionText": "What is the purpose of React Navigation?",
+          "options": [
+            "To handle HTTP requests",
+            "To manage navigation between screens",
+            "To store data locally",
+            "To handle user authentication"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "React Navigation is a library that provides navigation capabilities to React Native apps."
+        },
+        {
+          "id": "rni1-2",
+          "questionText": "Which hook is used to manage state in functional components?",
+          "options": [
+            "useEffect",
+            "useState",
+            "useContext",
+            "useReducer"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "useState is a React Hook that lets you add state to functional components."
+        },
+        {
+          "id": "rni1-3",
+          "questionText": "What is the purpose of AsyncStorage in React Native?",
+          "options": [
+            "To make HTTP requests",
+            "To store data persistently",
+            "To handle animations",
+            "To manage navigation"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "AsyncStorage is a simple, asynchronous, persistent, key-value storage system for React Native."
+        },
+        {
+          "id": "rni1-4",
+          "questionText": "Which library is commonly used for handling forms in React Native?",
+          "options": [
+            "Redux Form",
+            "Formik",
+            "React Hook Form",
+            "All of the above"
+          ],
+          "correctAnswerIndex": 3,
+          "explanation": "All of these libraries (Redux Form, Formik, React Hook Form) are commonly used for form handling in React Native."
+        },
+        {
+          "id": "rni1-5",
+          "questionText": "What is the purpose of the useEffect hook?",
+          "options": [
+            "To manage state",
+            "To handle side effects",
+            "To create refs",
+            "To optimize performance"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "useEffect is used to handle side effects in functional components, such as data fetching, subscriptions, or DOM manipulations."
+        }
+      ]
+    },
+    {
+      "id": "rn_advanced_1",
+      "title": "React Native Advanced",
+      "description": "Advanced React Native concepts and best practices",
+      "difficulty": "Advanced",
+      "questions": [
+        {
+          "id": "rna1-1",
+          "questionText": "What is the purpose of React Native's Hermes engine?",
+          "options": [
+            "To handle HTTP requests",
+            "To improve app performance and reduce memory usage",
+            "To manage navigation",
+            "To handle animations"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Hermes is a JavaScript engine optimized for React Native that improves app performance and reduces memory usage."
+        },
+        {
+          "id": "rna1-2",
+          "questionText": "What is the purpose of React Native's TurboModules?",
+          "options": [
+            "To handle HTTP requests",
+            "To improve performance of native modules",
+            "To manage state",
+            "To handle animations"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "TurboModules is a new architecture for native modules in React Native that improves performance and type safety."
+        },
+        {
+          "id": "rna1-3",
+          "questionText": "What is the purpose of React Native's Fabric?",
+          "options": [
+            "To handle HTTP requests",
+            "To improve UI rendering performance",
+            "To manage state",
+            "To handle animations"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Fabric is React Native's new rendering system that improves UI performance and enables better integration with native platforms."
+        },
+        {
+          "id": "rna1-4",
+          "questionText": "What is the purpose of React Native's CodePush?",
+          "options": [
+            "To handle HTTP requests",
+            "To push code changes to users without app store updates",
+            "To manage state",
+            "To handle animations"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "CodePush allows you to push updates to your React Native app without going through the app store review process."
+        },
+        {
+          "id": "rna1-5",
+          "questionText": "What is the purpose of React Native's Reanimated 2?",
+          "options": [
+            "To handle HTTP requests",
+            "To create smooth animations on the UI thread",
+            "To manage state",
+            "To handle navigation"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Reanimated 2 is a library that enables smooth animations by running them on the UI thread instead of the JavaScript thread."
+        }
+      ]
+    }
+  ]
+} 
