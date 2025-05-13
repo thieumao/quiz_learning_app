@@ -66,6 +66,150 @@
           ],
           "correctAnswerIndex": 2,
           "explanation": "Gradle is the recommended build system for Kotlin Multiplatform projects."
+        },
+        {
+          "id": "kmb1-5",
+          "questionText": "What is a Common Module in Kotlin Multiplatform?",
+          "options": [
+            "A database module",
+            "A module containing shared code",
+            "A networking module",
+            "A testing module"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A Common Module contains code that is shared across all platforms in a Kotlin Multiplatform project."
+        },
+        {
+          "id": "kmb1-6",
+          "questionText": "What is an Expect/Actual declaration in Kotlin Multiplatform?",
+          "options": [
+            "A database pattern",
+            "A way to declare platform-specific implementations",
+            "A networking pattern",
+            "A testing pattern"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Expect/Actual declarations allow you to define a common interface in the common module and provide platform-specific implementations."
+        },
+        {
+          "id": "kmb1-7",
+          "questionText": "What is a Platform Module in Kotlin Multiplatform?",
+          "options": [
+            "A database module",
+            "A module containing platform-specific code",
+            "A networking module",
+            "A testing module"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A Platform Module contains code that is specific to a particular platform (e.g., Android, iOS, JVM)."
+        },
+        {
+          "id": "kmb1-8",
+          "questionText": "What is Kotlin/Native in Kotlin Multiplatform?",
+          "options": [
+            "A database technology",
+            "A technology for compiling Kotlin to native code",
+            "A networking technology",
+            "A testing technology"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin/Native is a technology that compiles Kotlin code to native binaries for various platforms."
+        },
+        {
+          "id": "kmb1-9",
+          "questionText": "What is a Multiplatform Library in Kotlin?",
+          "options": [
+            "A database library",
+            "A library that works on multiple platforms",
+            "A networking library",
+            "A testing library"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A Multiplatform Library is a library that can be used across different platforms in a Kotlin Multiplatform project."
+        },
+        {
+          "id": "kmb1-10",
+          "questionText": "What is the Gradle Multiplatform Plugin?",
+          "options": [
+            "A database plugin",
+            "A plugin for building multiplatform projects",
+            "A networking plugin",
+            "A testing plugin"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "The Gradle Multiplatform Plugin provides support for building Kotlin Multiplatform projects using Gradle."
+        },
+        {
+          "id": "kb1-10",
+          "questionText": "What is a Common Module in Kotlin Multiplatform?",
+          "options": [
+            "A database module",
+            "A module shared between platforms",
+            "A networking module",
+            "A testing module"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Common Module is a module that contains code shared between different platforms in a Kotlin Multiplatform project."
+        },
+        {
+          "id": "kb1-11",
+          "questionText": "What is Expect/Actual declaration in Kotlin Multiplatform?",
+          "options": [
+            "A database pattern",
+            "A pattern for platform-specific implementations",
+            "A networking pattern",
+            "A testing pattern"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Expect/Actual is a pattern that allows you to declare expected behavior in common code and provide platform-specific implementations."
+        },
+        {
+          "id": "kb1-12",
+          "questionText": "What is a Platform Module in Kotlin Multiplatform?",
+          "options": [
+            "A database module",
+            "A module specific to a platform",
+            "A networking module",
+            "A testing module"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Platform Module is a module that contains platform-specific code for a particular target platform."
+        },
+        {
+          "id": "kb1-13",
+          "questionText": "What is Kotlin/Native in Kotlin Multiplatform?",
+          "options": [
+            "A database compiler",
+            "A compiler for native platforms",
+            "A networking compiler",
+            "A testing compiler"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin/Native is a compiler that allows you to compile Kotlin code to native binaries for various platforms."
+        },
+        {
+          "id": "kb1-14",
+          "questionText": "What is a Multiplatform Library in Kotlin?",
+          "options": [
+            "A database library",
+            "A library that works on multiple platforms",
+            "A networking library",
+            "A testing library"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Multiplatform Library is a library that can be used across different platforms, sharing common code while providing platform-specific implementations."
+        },
+        {
+          "id": "kb1-15",
+          "questionText": "What is Gradle Multiplatform Plugin?",
+          "options": [
+            "A database plugin",
+            "A plugin for building multiplatform projects",
+            "A networking plugin",
+            "A testing plugin"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Gradle Multiplatform Plugin is a plugin that helps build and manage Kotlin Multiplatform projects."
         }
       ]
     },
@@ -134,6 +278,210 @@
           ],
           "correctAnswerIndex": 0,
           "explanation": "Kotlin Coroutines is a library for asynchronous programming that works across all platforms in KMP."
+        },
+        {
+          "id": "kmi1-5",
+          "questionText": "What is Kotlin Serialization?",
+          "options": [
+            "A database framework",
+            "A framework for serializing data",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Serialization is a framework for serializing data structures to and from different formats like JSON."
+        },
+        {
+          "id": "kmi1-6",
+          "questionText": "What is Ktor in Kotlin Multiplatform?",
+          "options": [
+            "A database framework",
+            "A framework for building asynchronous servers and clients",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Ktor is a framework for building asynchronous servers and clients in Kotlin Multiplatform projects."
+        },
+        {
+          "id": "kmi1-7",
+          "questionText": "What is Kotlin Coroutines?",
+          "options": [
+            "A database framework",
+            "A framework for asynchronous programming",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Coroutines is a framework for asynchronous programming that works across all platforms in Kotlin Multiplatform."
+        },
+        {
+          "id": "kmi1-8",
+          "questionText": "What is Kotlin Multiplatform Mobile (KMM)?",
+          "options": [
+            "A database framework",
+            "A framework for sharing code between Android and iOS",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Mobile is a framework that allows sharing code between Android and iOS applications."
+        },
+        {
+          "id": "kmi1-9",
+          "questionText": "What is Kotlin/Native Memory Management?",
+          "options": [
+            "A database system",
+            "A system for managing memory in native code",
+            "A UI system",
+            "A testing system"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin/Native Memory Management is a system that handles memory allocation and deallocation in native code."
+        },
+        {
+          "id": "kmi1-10",
+          "questionText": "What is Kotlin Multiplatform Testing?",
+          "options": [
+            "A database framework",
+            "A framework for testing multiplatform code",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Testing provides tools and frameworks for testing code across different platforms."
+        },
+        {
+          "id": "ki1-10",
+          "questionText": "What is Kotlin Serialization?",
+          "options": [
+            "A database framework",
+            "A framework for data serialization",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Serialization is a framework for serializing and deserializing data in Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ki1-11",
+          "questionText": "What is Ktor in Kotlin Multiplatform?",
+          "options": [
+            "A database framework",
+            "A framework for network requests",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Ktor is a framework for making network requests in Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ki1-12",
+          "questionText": "What is Kotlin Coroutines?",
+          "options": [
+            "A database library",
+            "A library for asynchronous programming",
+            "A UI library",
+            "A testing library"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Coroutines is a library for asynchronous programming in Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ki1-13",
+          "questionText": "What is Kotlin Multiplatform Mobile (KMM)?",
+          "options": [
+            "A database framework",
+            "A framework for mobile development",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Mobile is a framework for sharing code between Android and iOS platforms."
+        },
+        {
+          "id": "ki1-14",
+          "questionText": "What is Kotlin/Native Memory Management?",
+          "options": [
+            "A database system",
+            "A system for managing memory in native code",
+            "A UI system",
+            "A testing system"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin/Native Memory Management is a system for managing memory in Kotlin/Native code."
+        },
+        {
+          "id": "ki1-15",
+          "questionText": "What is Kotlin Multiplatform Testing?",
+          "options": [
+            "A database framework",
+            "A framework for testing multiplatform code",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Testing is a framework for testing code in Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ki1-16",
+          "questionText": "What is Kotlin Multiplatform Project Structure?",
+          "options": [
+            "A database structure",
+            "A structure for organizing multiplatform code",
+            "A UI structure",
+            "A testing structure"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Project Structure is a way to organize code in a Kotlin Multiplatform project."
+        },
+        {
+          "id": "ki1-17",
+          "questionText": "What is Kotlin Multiplatform Dependencies?",
+          "options": [
+            "A database system",
+            "A system for managing project dependencies",
+            "A UI system",
+            "A testing system"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Dependencies is a system for managing dependencies in Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ki1-18",
+          "questionText": "What is Kotlin Multiplatform Build Configuration?",
+          "options": [
+            "A database configuration",
+            "A configuration for building multiplatform projects",
+            "A UI configuration",
+            "A testing configuration"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Build Configuration is a way to configure the build process for Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ki1-19",
+          "questionText": "What is Kotlin Multiplatform Code Sharing?",
+          "options": [
+            "A database feature",
+            "A feature for sharing code between platforms",
+            "A UI feature",
+            "A testing feature"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Code Sharing is a feature that allows sharing code between different platforms."
+        },
+        {
+          "id": "ki1-20",
+          "questionText": "What is Kotlin Multiplatform Platform-Specific Code?",
+          "options": [
+            "A database feature",
+            "A feature for platform-specific implementations",
+            "A UI feature",
+            "A testing feature"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Platform-Specific Code is code that is specific to a particular platform."
         }
       ]
     },
@@ -202,6 +550,270 @@
           ],
           "correctAnswerIndex": 1,
           "explanation": "Kotlin Multiplatform testing allows you to test shared code across different platforms."
+        },
+        {
+          "id": "kma1-5",
+          "questionText": "What is Kotlin/Native C Interop?",
+          "options": [
+            "A database feature",
+            "A feature for interacting with C code",
+            "A UI feature",
+            "A testing feature"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin/Native C Interop allows Kotlin code to interact with C code in multiplatform projects."
+        },
+        {
+          "id": "kma1-6",
+          "questionText": "What is Kotlin Multiplatform Compose?",
+          "options": [
+            "A database framework",
+            "A UI framework for multiplatform development",
+            "A networking framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Compose is a UI framework that allows sharing UI code across different platforms."
+        },
+        {
+          "id": "kma1-7",
+          "questionText": "What is Kotlin Multiplatform SQLDelight?",
+          "options": [
+            "A UI framework",
+            "A SQL database framework",
+            "A networking framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "SQLDelight is a SQL database framework that works across different platforms in Kotlin Multiplatform."
+        },
+        {
+          "id": "kma1-8",
+          "questionText": "What is Kotlin Multiplatform Koin?",
+          "options": [
+            "A database framework",
+            "A dependency injection framework",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Koin is a dependency injection framework that works across different platforms in Kotlin Multiplatform."
+        },
+        {
+          "id": "kma1-9",
+          "questionText": "What is Kotlin Multiplatform Moko?",
+          "options": [
+            "A database framework",
+            "A set of multiplatform libraries",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Moko is a set of multiplatform libraries that provide common functionality for mobile development."
+        },
+        {
+          "id": "kma1-10",
+          "questionText": "What is Kotlin Multiplatform Build Konfig?",
+          "options": [
+            "A database tool",
+            "A tool for managing build configurations",
+            "A UI tool",
+            "A testing tool"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Build Konfig is a tool for managing build configurations in Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ka1-10",
+          "questionText": "What is Kotlin/Native C Interop?",
+          "options": [
+            "A database system",
+            "A system for C language interoperability",
+            "A UI system",
+            "A testing system"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin/Native C Interop is a system for interoperability between Kotlin and C code."
+        },
+        {
+          "id": "ka1-11",
+          "questionText": "What is Kotlin Multiplatform Compose?",
+          "options": [
+            "A database framework",
+            "A framework for UI development",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Compose is a framework for building UI in Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ka1-12",
+          "questionText": "What is Kotlin Multiplatform SQLDelight?",
+          "options": [
+            "A database framework",
+            "A framework for SQL database access",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform SQLDelight is a framework for accessing SQL databases in Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ka1-13",
+          "questionText": "What is Kotlin Multiplatform Koin?",
+          "options": [
+            "A database framework",
+            "A dependency injection framework",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Koin is a dependency injection framework for Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ka1-14",
+          "questionText": "What is Kotlin Multiplatform Moko?",
+          "options": [
+            "A database framework",
+            "A framework for mobile development",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Moko is a framework for mobile development in Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ka1-15",
+          "questionText": "What is Kotlin Multiplatform Build Konfig?",
+          "options": [
+            "A database tool",
+            "A tool for build configuration",
+            "A UI tool",
+            "A testing tool"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Build Konfig is a tool for managing build configuration in Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ka1-16",
+          "questionText": "What is Kotlin Multiplatform CocoaPods?",
+          "options": [
+            "A database system",
+            "A system for iOS dependency management",
+            "A UI system",
+            "A testing system"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform CocoaPods is a system for managing iOS dependencies in Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ka1-17",
+          "questionText": "What is Kotlin Multiplatform Gradle?",
+          "options": [
+            "A database system",
+            "A build system for multiplatform projects",
+            "A UI system",
+            "A testing system"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Gradle is a build system for Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ka1-18",
+          "questionText": "What is Kotlin Multiplatform CI/CD?",
+          "options": [
+            "A database system",
+            "A system for continuous integration and deployment",
+            "A UI system",
+            "A testing system"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform CI/CD is a system for continuous integration and deployment of Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ka1-19",
+          "questionText": "What is Kotlin Multiplatform Performance?",
+          "options": [
+            "A database feature",
+            "A feature for optimizing performance",
+            "A UI feature",
+            "A testing feature"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Performance is a set of features for optimizing performance in Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ka1-20",
+          "questionText": "What is Kotlin Multiplatform Security?",
+          "options": [
+            "A database feature",
+            "A feature for securing multiplatform apps",
+            "A UI feature",
+            "A testing feature"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Security is a set of features for securing Kotlin Multiplatform applications."
+        },
+        {
+          "id": "ka1-21",
+          "questionText": "What is Kotlin Multiplatform Error Handling?",
+          "options": [
+            "A database system",
+            "A system for handling errors",
+            "A UI system",
+            "A testing system"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Error Handling is a system for handling errors in Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ka1-22",
+          "questionText": "What is Kotlin Multiplatform Logging?",
+          "options": [
+            "A database system",
+            "A system for logging",
+            "A UI system",
+            "A testing system"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Logging is a system for logging in Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ka1-23",
+          "questionText": "What is Kotlin Multiplatform Testing Strategy?",
+          "options": [
+            "A database strategy",
+            "A strategy for testing multiplatform code",
+            "A UI strategy",
+            "A testing strategy"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Testing Strategy is a strategy for testing code in Kotlin Multiplatform projects."
+        },
+        {
+          "id": "ka1-24",
+          "questionText": "What is Kotlin Multiplatform Architecture?",
+          "options": [
+            "A database architecture",
+            "An architecture for multiplatform apps",
+            "A UI architecture",
+            "A testing architecture"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Architecture is an architecture for building Kotlin Multiplatform applications."
+        },
+        {
+          "id": "ka1-25",
+          "questionText": "What is Kotlin Multiplatform Best Practices?",
+          "options": [
+            "A database guide",
+            "A guide for best practices",
+            "A UI guide",
+            "A testing guide"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kotlin Multiplatform Best Practices is a guide for following best practices in Kotlin Multiplatform development."
         }
       ]
     }

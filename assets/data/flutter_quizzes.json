@@ -66,6 +66,126 @@
           ],
           "correctAnswerIndex": 1,
           "explanation": "The main() function is the entry point of a Flutter application. It's where the app starts executing."
+        },
+        {
+          "id": "fb1-6",
+          "questionText": "What is the purpose of pubspec.yaml in Flutter?",
+          "options": [
+            "A database configuration file",
+            "A project configuration file that defines dependencies and assets",
+            "A networking configuration file",
+            "A testing configuration file"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "pubspec.yaml is a project configuration file that defines dependencies, assets, and other project settings in Flutter."
+        },
+        {
+          "id": "fb1-7",
+          "questionText": "What is the difference between MaterialApp and CupertinoApp?",
+          "options": [
+            "MaterialApp is for Android, CupertinoApp is for iOS",
+            "MaterialApp follows Material Design, CupertinoApp follows iOS design guidelines",
+            "MaterialApp is faster, CupertinoApp is slower",
+            "There is no difference"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "MaterialApp implements Material Design guidelines, while CupertinoApp implements iOS design guidelines."
+        },
+        {
+          "id": "fb1-8",
+          "questionText": "What is the purpose of Scaffold in Flutter?",
+          "options": [
+            "A database component",
+            "A basic visual layout structure that implements Material Design",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Scaffold provides a basic visual layout structure that implements Material Design, including app bars, drawers, and bottom navigation."
+        },
+        {
+          "id": "fb1-9",
+          "questionText": "What is the purpose of setState() in Flutter?",
+          "options": [
+            "To update the database",
+            "To notify the framework that the internal state has changed",
+            "To update the network connection",
+            "To update the test results"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "setState() notifies the framework that the internal state of a StatefulWidget has changed, triggering a rebuild of the widget."
+        },
+        {
+          "id": "fb1-10",
+          "questionText": "What is the purpose of const constructor in Flutter?",
+          "options": [
+            "To create database connections",
+            "To create compile-time constant widgets",
+            "To create network connections",
+            "To create test cases"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "const constructor creates compile-time constant widgets, which can improve performance by reusing the same instance."
+        },
+        {
+          "id": "fb1-11",
+          "questionText": "What is the purpose of SizedBox in Flutter?",
+          "options": [
+            "To create database connections",
+            "To create a box with a specified size",
+            "To create network connections",
+            "To create test cases"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "SizedBox is a widget that creates a box with a specified size, useful for adding spacing or forcing dimensions."
+        },
+        {
+          "id": "fb1-12",
+          "questionText": "What is the purpose of Container in Flutter?",
+          "options": [
+            "To store data",
+            "To create a widget that combines common painting, positioning, and sizing widgets",
+            "To handle network requests",
+            "To run tests"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Container is a convenience widget that combines common painting, positioning, and sizing widgets."
+        },
+        {
+          "id": "fb1-13",
+          "questionText": "What is the purpose of Row and Column in Flutter?",
+          "options": [
+            "To store data",
+            "To arrange widgets horizontally and vertically",
+            "To handle network requests",
+            "To run tests"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Row arranges its children in a horizontal array, while Column arranges its children in a vertical array."
+        },
+        {
+          "id": "fb1-14",
+          "questionText": "What is the purpose of Expanded widget in Flutter?",
+          "options": [
+            "To expand database storage",
+            "To expand a child of a Row, Column, or Flex to fill the available space",
+            "To expand network bandwidth",
+            "To expand test coverage"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Expanded widget expands a child of a Row, Column, or Flex to fill the available space in the main axis."
+        },
+        {
+          "id": "fb1-15",
+          "questionText": "What is the purpose of ListView in Flutter?",
+          "options": [
+            "To store data",
+            "To create a scrollable list of widgets arranged linearly",
+            "To handle network requests",
+            "To run tests"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "ListView is a scrollable list of widgets arranged linearly, either vertically or horizontally."
         }
       ]
     },
@@ -134,6 +254,186 @@
           ],
           "correctAnswerIndex": 1,
           "explanation": "Stream is used to handle a sequence of asynchronous events, allowing you to process data as it becomes available."
+        },
+        {
+          "id": "fi1-6",
+          "questionText": "What is the purpose of ChangeNotifier in Flutter?",
+          "options": [
+            "To handle database changes",
+            "To notify listeners when the object changes",
+            "To handle network changes",
+            "To handle file changes"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "ChangeNotifier is a class that provides change notification to its listeners, commonly used in state management."
+        },
+        {
+          "id": "fi1-7",
+          "questionText": "What is the purpose of BuildContext in Flutter?",
+          "options": [
+            "To handle database context",
+            "To locate widgets in the widget tree and access theme data",
+            "To handle network context",
+            "To handle file context"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "BuildContext is a locator that is used to track each widget in a tree and contains references to theme data and other inherited widgets."
+        },
+        {
+          "id": "fi1-8",
+          "questionText": "What is the purpose of Key in Flutter?",
+          "options": [
+            "To handle database keys",
+            "To uniquely identify widgets in the widget tree",
+            "To handle network keys",
+            "To handle file keys"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Key is used to uniquely identify widgets in the widget tree, helping Flutter efficiently update the UI when the widget tree changes."
+        },
+        {
+          "id": "fi1-9",
+          "questionText": "What is the purpose of GestureDetector in Flutter?",
+          "options": [
+            "To handle database gestures",
+            "To detect and respond to various gestures",
+            "To handle network gestures",
+            "To handle file gestures"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "GestureDetector is a widget that detects various gestures like taps, drags, and swipes, and responds to them."
+        },
+        {
+          "id": "fi1-10",
+          "questionText": "What is the purpose of AnimatedBuilder in Flutter?",
+          "options": [
+            "To handle database animations",
+            "To rebuild a widget tree when an animation value changes",
+            "To handle network animations",
+            "To handle file animations"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "AnimatedBuilder rebuilds a widget tree when an animation value changes, allowing for efficient animations."
+        },
+        {
+          "id": "fi1-11",
+          "questionText": "What is the purpose of StreamBuilder in Flutter?",
+          "options": [
+            "To handle database streams",
+            "To build itself based on the latest snapshot of interaction with a Stream",
+            "To handle network streams",
+            "To handle file streams"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "StreamBuilder is a widget that builds itself based on the latest snapshot of interaction with a Stream."
+        },
+        {
+          "id": "fi1-12",
+          "questionText": "What is the purpose of FutureBuilder in Flutter?",
+          "options": [
+            "To handle database futures",
+            "To build itself based on the latest snapshot of interaction with a Future",
+            "To handle network futures",
+            "To handle file futures"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "FutureBuilder is a widget that builds itself based on the latest snapshot of interaction with a Future."
+        },
+        {
+          "id": "fi1-13",
+          "questionText": "What is the purpose of InheritedWidget in Flutter?",
+          "options": [
+            "To handle database inheritance",
+            "To efficiently propagate information down the widget tree",
+            "To handle network inheritance",
+            "To handle file inheritance"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "InheritedWidget is a base class that allows efficient propagation of information down the widget tree."
+        },
+        {
+          "id": "fi1-14",
+          "questionText": "What is the purpose of CustomPainter in Flutter?",
+          "options": [
+            "To handle database painting",
+            "To create custom graphics and animations",
+            "To handle network painting",
+            "To handle file painting"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "CustomPainter is a class that allows you to create custom graphics and animations by painting on a canvas."
+        },
+        {
+          "id": "fi1-15",
+          "questionText": "What is the purpose of Hero widget in Flutter?",
+          "options": [
+            "To handle database transitions",
+            "To create hero animations between routes",
+            "To handle network transitions",
+            "To handle file transitions"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Hero widget creates hero animations between routes, making it easy to create smooth transitions between screens."
+        },
+        {
+          "id": "fi1-16",
+          "questionText": "What is the purpose of WillPopScope in Flutter?",
+          "options": [
+            "To handle database pop operations",
+            "To control the behavior of the back button",
+            "To handle network pop operations",
+            "To handle file pop operations"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "WillPopScope is a widget that controls the behavior of the back button, allowing you to intercept and customize back navigation."
+        },
+        {
+          "id": "fi1-17",
+          "questionText": "What is the purpose of Form widget in Flutter?",
+          "options": [
+            "To handle database forms",
+            "To create and validate form fields",
+            "To handle network forms",
+            "To handle file forms"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Form widget is a container for grouping and validating multiple form fields."
+        },
+        {
+          "id": "fi1-18",
+          "questionText": "What is the purpose of PageView in Flutter?",
+          "options": [
+            "To handle database pages",
+            "To create a scrollable view that works page by page",
+            "To handle network pages",
+            "To handle file pages"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "PageView is a scrollable view that works page by page, useful for creating onboarding screens or image galleries."
+        },
+        {
+          "id": "fi1-19",
+          "questionText": "What is the purpose of SliverList in Flutter?",
+          "options": [
+            "To handle database lists",
+            "To create a scrollable list that can be used in a CustomScrollView",
+            "To handle network lists",
+            "To handle file lists"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "SliverList is a sliver that displays a linear list of children that can be scrolled in a CustomScrollView."
+        },
+        {
+          "id": "fi1-20",
+          "questionText": "What is the purpose of NotificationListener in Flutter?",
+          "options": [
+            "To handle database notifications",
+            "To listen for notifications from descendant widgets",
+            "To handle network notifications",
+            "To handle file notifications"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "NotificationListener is a widget that listens for notifications from descendant widgets and can handle them."
         }
       ]
     },
@@ -202,6 +502,246 @@
           ],
           "correctAnswerIndex": 1,
           "explanation": "RenderObject is the base class for objects that handle the actual rendering of widgets, managing layout and painting."
+        },
+        {
+          "id": "fa1-6",
+          "questionText": "What is the purpose of Flutter's Element tree?",
+          "options": [
+            "To handle database elements",
+            "To maintain the widget tree and handle widget lifecycle",
+            "To handle network elements",
+            "To handle file elements"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "The Element tree maintains the widget tree and handles widget lifecycle, acting as an intermediary between Widget and RenderObject trees."
+        },
+        {
+          "id": "fa1-7",
+          "questionText": "What is the purpose of Flutter's WidgetsBinding?",
+          "options": [
+            "To handle database bindings",
+            "To handle the binding between the Flutter engine and the framework",
+            "To handle network bindings",
+            "To handle file bindings"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "WidgetsBinding handles the binding between the Flutter engine and the framework, managing the widget lifecycle and system events."
+        },
+        {
+          "id": "fa1-8",
+          "questionText": "What is the purpose of Flutter's Layer tree?",
+          "options": [
+            "To handle database layers",
+            "To optimize rendering by compositing layers",
+            "To handle network layers",
+            "To handle file layers"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "The Layer tree optimizes rendering by compositing layers, allowing for efficient updates and animations."
+        },
+        {
+          "id": "fa1-9",
+          "questionText": "What is the purpose of Flutter's Semantics?",
+          "options": [
+            "To handle database semantics",
+            "To provide accessibility information to the framework",
+            "To handle network semantics",
+            "To handle file semantics"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Semantics provides accessibility information to the framework, making apps accessible to users with disabilities."
+        },
+        {
+          "id": "fa1-10",
+          "questionText": "What is the purpose of Flutter's PipelineOwner?",
+          "options": [
+            "To handle database pipelines",
+            "To manage the rendering pipeline and schedule frame updates",
+            "To handle network pipelines",
+            "To handle file pipelines"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "PipelineOwner manages the rendering pipeline and schedules frame updates, coordinating the rendering process."
+        },
+        {
+          "id": "fa1-11",
+          "questionText": "What is the purpose of Flutter's Layer tree?",
+          "options": [
+            "To handle database layers",
+            "To optimize rendering by compositing layers",
+            "To handle network layers",
+            "To handle file layers"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "The Layer tree optimizes rendering by compositing layers, allowing for efficient updates and animations."
+        },
+        {
+          "id": "fa1-12",
+          "questionText": "What is the purpose of Flutter's RenderObject?",
+          "options": [
+            "To handle database rendering",
+            "To handle the actual rendering of widgets",
+            "To handle network rendering",
+            "To handle file rendering"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "RenderObject is the base class for objects that handle the actual rendering of widgets, managing layout and painting."
+        },
+        {
+          "id": "fa1-13",
+          "questionText": "What is the purpose of Flutter's Element tree?",
+          "options": [
+            "To handle database elements",
+            "To maintain the widget tree and handle widget lifecycle",
+            "To handle network elements",
+            "To handle file elements"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "The Element tree maintains the widget tree and handles widget lifecycle, acting as an intermediary between Widget and RenderObject trees."
+        },
+        {
+          "id": "fa1-14",
+          "questionText": "What is the purpose of Flutter's WidgetsBinding?",
+          "options": [
+            "To handle database bindings",
+            "To handle the binding between the Flutter engine and the framework",
+            "To handle network bindings",
+            "To handle file bindings"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "WidgetsBinding handles the binding between the Flutter engine and the framework, managing the widget lifecycle and system events."
+        },
+        {
+          "id": "fa1-15",
+          "questionText": "What is the purpose of Flutter's Semantics?",
+          "options": [
+            "To handle database semantics",
+            "To provide accessibility information to the framework",
+            "To handle network semantics",
+            "To handle file semantics"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Semantics provides accessibility information to the framework, making apps accessible to users with disabilities."
+        },
+        {
+          "id": "fa1-16",
+          "questionText": "What is the purpose of Flutter's Platform Channels?",
+          "options": [
+            "To handle database channels",
+            "To communicate between Flutter and platform-specific code",
+            "To handle network channels",
+            "To handle file channels"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Platform Channels allow Flutter to communicate with platform-specific code (Android/iOS) to access native features and APIs."
+        },
+        {
+          "id": "fa1-17",
+          "questionText": "What is the purpose of Flutter's Isolate?",
+          "options": [
+            "To handle database isolation",
+            "To run code in a separate thread",
+            "To handle network isolation",
+            "To handle file isolation"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Isolate allows you to run code in a separate thread, useful for CPU-intensive tasks that shouldn't block the main thread."
+        },
+        {
+          "id": "fa1-18",
+          "questionText": "What is the purpose of Flutter's CustomPainter?",
+          "options": [
+            "To handle database painting",
+            "To create custom graphics and animations",
+            "To handle network painting",
+            "To handle file painting"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "CustomPainter is a class that allows you to create custom graphics and animations by painting on a canvas."
+        },
+        {
+          "id": "fa1-19",
+          "questionText": "What is the purpose of Flutter's InheritedWidget?",
+          "options": [
+            "To handle database inheritance",
+            "To efficiently propagate data down the widget tree",
+            "To handle network inheritance",
+            "To handle file inheritance"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "InheritedWidget is a base class that allows efficient propagation of data down the widget tree without manually passing it through constructors."
+        },
+        {
+          "id": "fa1-20",
+          "questionText": "What is the purpose of Flutter's RenderBox?",
+          "options": [
+            "To handle database boxes",
+            "To implement the box layout model",
+            "To handle network boxes",
+            "To handle file boxes"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "RenderBox implements the box layout model, which is the most common layout model in Flutter."
+        },
+        {
+          "id": "fa1-21",
+          "questionText": "What is the purpose of Flutter's RenderSliver?",
+          "options": [
+            "To handle database slivers",
+            "To implement the sliver layout model",
+            "To handle network slivers",
+            "To handle file slivers"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "RenderSliver implements the sliver layout model, which is used for scrollable views that can have variable-sized children."
+        },
+        {
+          "id": "fa1-22",
+          "questionText": "What is the purpose of Flutter's RenderView?",
+          "options": [
+            "To handle database views",
+            "To implement the root of the render tree",
+            "To handle network views",
+            "To handle file views"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "RenderView is the root of the render tree, responsible for sizing and positioning the entire render tree."
+        },
+        {
+          "id": "fa1-23",
+          "questionText": "What is the purpose of Flutter's RenderRepaintBoundary?",
+          "options": [
+            "To handle database repainting",
+            "To create a boundary that can be repainted independently",
+            "To handle network repainting",
+            "To handle file repainting"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "RenderRepaintBoundary creates a boundary that can be repainted independently, useful for optimizing rendering performance."
+        },
+        {
+          "id": "fa1-24",
+          "questionText": "What is the purpose of Flutter's RenderOffstage?",
+          "options": [
+            "To handle database offstage rendering",
+            "To render a child without affecting the layout",
+            "To handle network offstage rendering",
+            "To handle file offstage rendering"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "RenderOffstage renders a child without affecting the layout, useful for widgets that need to be rendered but not laid out."
+        },
+        {
+          "id": "fa1-25",
+          "questionText": "What is the purpose of Flutter's RenderProxyBox?",
+          "options": [
+            "To handle database proxy boxes",
+            "To create a proxy for a single child render box",
+            "To handle network proxy boxes",
+            "To handle file proxy boxes"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "RenderProxyBox creates a proxy for a single child render box, allowing you to modify the child's layout and painting behavior."
         }
       ]
     }

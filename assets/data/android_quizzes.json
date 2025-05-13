@@ -66,6 +66,126 @@
           ],
           "correctAnswerIndex": 1,
           "explanation": "A Fragment is a reusable UI component that represents a portion of a user interface in an Activity."
+        },
+        {
+          "id": "ab1-6",
+          "questionText": "What is an Intent in Android?",
+          "options": [
+            "A database component",
+            "A messaging object for requesting actions from other components",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "An Intent is a messaging object that can be used to request an action from another app component."
+        },
+        {
+          "id": "ab1-7",
+          "questionText": "What is a Service in Android?",
+          "options": [
+            "A database component",
+            "A component that runs in the background without a UI",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A Service is a component that runs in the background to perform long-running operations without a user interface."
+        },
+        {
+          "id": "ab1-8",
+          "questionText": "What is a BroadcastReceiver in Android?",
+          "options": [
+            "A database component",
+            "A component that responds to system-wide broadcast announcements",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A BroadcastReceiver is a component that responds to system-wide broadcast announcements."
+        },
+        {
+          "id": "ab1-9",
+          "questionText": "What is a ContentProvider in Android?",
+          "options": [
+            "A UI component",
+            "A component that manages access to a structured set of data",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A ContentProvider manages access to a structured set of data and provides a mechanism for data sharing between applications."
+        },
+        {
+          "id": "ab1-10",
+          "questionText": "What is a RecyclerView in Android?",
+          "options": [
+            "A database component",
+            "A flexible view for displaying a large dataset",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "RecyclerView is a flexible view for displaying a large dataset that can be scrolled efficiently."
+        },
+        {
+          "id": "ab1-11",
+          "questionText": "What is a ViewGroup in Android?",
+          "options": [
+            "A database component",
+            "A container that holds and organizes multiple views",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "ViewGroup is a container that holds and organizes multiple views, managing their layout and appearance."
+        },
+        {
+          "id": "ab1-12",
+          "questionText": "What is a Context in Android?",
+          "options": [
+            "A database component",
+            "An interface to global information about an application environment",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Context is an interface to global information about an application environment, providing access to resources and system services."
+        },
+        {
+          "id": "ab1-13",
+          "questionText": "What is a Handler in Android?",
+          "options": [
+            "A database component",
+            "A class that allows you to send and process messages and runnable objects",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Handler is a class that allows you to send and process messages and runnable objects associated with a thread's message queue."
+        },
+        {
+          "id": "ab1-14",
+          "questionText": "What is a Looper in Android?",
+          "options": [
+            "A database component",
+            "A class that runs a message loop for a thread",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Looper is a class that runs a message loop for a thread, processing messages from a message queue."
+        },
+        {
+          "id": "ab1-15",
+          "questionText": "What is a Toast in Android?",
+          "options": [
+            "A database component",
+            "A view that shows a brief message to the user",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Toast is a view that shows a brief message to the user, appearing for a short duration and then disappearing."
         }
       ]
     },
@@ -134,6 +254,186 @@
           ],
           "correctAnswerIndex": 1,
           "explanation": "Coroutines is a library that provides a way to write asynchronous code in a sequential manner."
+        },
+        {
+          "id": "ai1-6",
+          "questionText": "What is Dagger Hilt?",
+          "options": [
+            "A database framework",
+            "A dependency injection library built on top of Dagger",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Dagger Hilt is a dependency injection library built on top of Dagger that simplifies dependency injection in Android apps."
+        },
+        {
+          "id": "ai1-7",
+          "questionText": "What is Paging 3?",
+          "options": [
+            "A database framework",
+            "A library for loading and displaying large datasets",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Paging 3 is a library that helps you load and display large datasets efficiently."
+        },
+        {
+          "id": "ai1-8",
+          "questionText": "What is DataStore?",
+          "options": [
+            "A UI framework",
+            "A data storage solution that replaces SharedPreferences",
+            "A networking library",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "DataStore is a data storage solution that replaces SharedPreferences, providing a more robust way to store key-value pairs."
+        },
+        {
+          "id": "ai1-9",
+          "questionText": "What is Navigation Component?",
+          "options": [
+            "A database framework",
+            "A framework for handling navigation between destinations",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Navigation Component is a framework that helps implement navigation between destinations in an app."
+        },
+        {
+          "id": "ai1-10",
+          "questionText": "What is WorkManager?",
+          "options": [
+            "A database framework",
+            "A library for managing background tasks",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "WorkManager is a library that helps manage background tasks that need to run even if the app is closed."
+        },
+        {
+          "id": "ai1-11",
+          "questionText": "What is Hilt?",
+          "options": [
+            "A database framework",
+            "A dependency injection library built on top of Dagger",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Hilt is a dependency injection library built on top of Dagger that simplifies dependency injection in Android apps."
+        },
+        {
+          "id": "ai1-12",
+          "questionText": "What is Navigation Component?",
+          "options": [
+            "A database framework",
+            "A framework for handling navigation between destinations",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Navigation Component is a framework that helps implement navigation between destinations in an app."
+        },
+        {
+          "id": "ai1-13",
+          "questionText": "What is DataStore?",
+          "options": [
+            "A UI framework",
+            "A data storage solution that replaces SharedPreferences",
+            "A networking library",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "DataStore is a data storage solution that replaces SharedPreferences, providing a more robust way to store key-value pairs."
+        },
+        {
+          "id": "ai1-14",
+          "questionText": "What is CameraX?",
+          "options": [
+            "A database framework",
+            "A library for camera functionality",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "CameraX is a library that helps implement camera functionality in Android apps with less boilerplate code."
+        },
+        {
+          "id": "ai1-15",
+          "questionText": "What is App Bundle?",
+          "options": [
+            "A database format",
+            "A publishing format for Android apps",
+            "A UI format",
+            "A testing format"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "App Bundle is a publishing format that allows Google Play to generate optimized APKs for different device configurations."
+        },
+        {
+          "id": "ai1-16",
+          "questionText": "What is Dynamic Feature Modules?",
+          "options": [
+            "A database feature",
+            "A way to split an app into smaller modules",
+            "A UI feature",
+            "A testing feature"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Dynamic Feature Modules allow you to split your app into smaller modules that can be downloaded on demand."
+        },
+        {
+          "id": "ai1-17",
+          "questionText": "What is Android App Links?",
+          "options": [
+            "A database feature",
+            "A way to associate your app with a website",
+            "A UI feature",
+            "A testing feature"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android App Links allow you to associate your app with a website, enabling deep linking and better user experience."
+        },
+        {
+          "id": "ai1-18",
+          "questionText": "What is Android App Bundle?",
+          "options": [
+            "A database format",
+            "A publishing format that reduces app size",
+            "A UI format",
+            "A testing format"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android App Bundle is a publishing format that helps reduce app size by generating optimized APKs for different device configurations."
+        },
+        {
+          "id": "ai1-19",
+          "questionText": "What is Android Jetpack?",
+          "options": [
+            "A database framework",
+            "A set of libraries, tools, and architectural guidance",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android Jetpack is a set of libraries, tools, and architectural guidance to help developers build high-quality apps."
+        },
+        {
+          "id": "ai1-20",
+          "questionText": "What is Android Architecture Components?",
+          "options": [
+            "A database framework",
+            "A collection of libraries that help design robust, testable, and maintainable apps",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android Architecture Components are a collection of libraries that help design robust, testable, and maintainable apps."
         }
       ]
     },
@@ -201,7 +501,247 @@
             "A testing framework"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "DataStore is a data storage solution that allows you to store key-value pairs or typed objects."
+          "explanation": "DataStore is a data storage solution that provides a more robust way to store key-value pairs and typed objects."
+        },
+        {
+          "id": "aaa1-6",
+          "questionText": "What is CameraX?",
+          "options": [
+            "A database framework",
+            "A library for camera functionality",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "CameraX is a library that helps implement camera functionality in Android apps with less boilerplate code."
+        },
+        {
+          "id": "aaa1-7",
+          "questionText": "What is App Bundle?",
+          "options": [
+            "A database format",
+            "A publishing format for Android apps",
+            "A UI format",
+            "A testing format"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "App Bundle is a publishing format that allows Google Play to generate optimized APKs for different device configurations."
+        },
+        {
+          "id": "aaa1-8",
+          "questionText": "What is Dynamic Feature Modules?",
+          "options": [
+            "A database feature",
+            "A way to split an app into smaller modules",
+            "A UI feature",
+            "A testing feature"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Dynamic Feature Modules allow you to split your app into smaller modules that can be downloaded on demand."
+        },
+        {
+          "id": "aaa1-9",
+          "questionText": "What is Android App Links?",
+          "options": [
+            "A database feature",
+            "A way to associate your app with a website",
+            "A UI feature",
+            "A testing feature"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android App Links allow you to associate your app with a website, enabling deep linking and better user experience."
+        },
+        {
+          "id": "aaa1-10",
+          "questionText": "What is Android App Bundle?",
+          "options": [
+            "A database format",
+            "A publishing format that reduces app size",
+            "A UI format",
+            "A testing format"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android App Bundle is a publishing format that helps reduce app size by generating optimized APKs for different device configurations."
+        },
+        {
+          "id": "aaa1-11",
+          "questionText": "What is Android Performance Profiler?",
+          "options": [
+            "A database tool",
+            "A tool for analyzing app performance",
+            "A UI tool",
+            "A testing tool"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android Performance Profiler is a tool that helps analyze app performance, including CPU, memory, network, and battery usage."
+        },
+        {
+          "id": "aaa1-12",
+          "questionText": "What is Android Memory Profiler?",
+          "options": [
+            "A database tool",
+            "A tool for analyzing memory usage",
+            "A UI tool",
+            "A testing tool"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android Memory Profiler is a tool that helps identify memory leaks and memory churn in your app."
+        },
+        {
+          "id": "aaa1-13",
+          "questionText": "What is Android CPU Profiler?",
+          "options": [
+            "A database tool",
+            "A tool for analyzing CPU usage",
+            "A UI tool",
+            "A testing tool"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android CPU Profiler is a tool that helps analyze CPU usage and identify performance bottlenecks."
+        },
+        {
+          "id": "aaa1-14",
+          "questionText": "What is Android Network Profiler?",
+          "options": [
+            "A database tool",
+            "A tool for analyzing network usage",
+            "A UI tool",
+            "A testing tool"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android Network Profiler is a tool that helps analyze network usage and identify network-related issues."
+        },
+        {
+          "id": "aaa1-15",
+          "questionText": "What is Android Battery Profiler?",
+          "options": [
+            "A database tool",
+            "A tool for analyzing battery usage",
+            "A UI tool",
+            "A testing tool"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android Battery Profiler is a tool that helps analyze battery usage and identify battery-draining issues."
+        },
+        {
+          "id": "aaa1-16",
+          "questionText": "What is Android Layout Inspector?",
+          "options": [
+            "A database tool",
+            "A tool for inspecting and debugging layouts",
+            "A UI tool",
+            "A testing tool"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android Layout Inspector is a tool that helps inspect and debug layouts in real-time."
+        },
+        {
+          "id": "aaa1-17",
+          "questionText": "What is Android APK Analyzer?",
+          "options": [
+            "A database tool",
+            "A tool for analyzing APK contents",
+            "A UI tool",
+            "A testing tool"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android APK Analyzer is a tool that helps analyze APK contents and identify size issues."
+        },
+        {
+          "id": "aaa1-18",
+          "questionText": "What is Android Dynamic Delivery?",
+          "options": [
+            "A database feature",
+            "A feature for delivering app features on demand",
+            "A UI feature",
+            "A testing feature"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android Dynamic Delivery is a feature that allows delivering app features on demand, reducing initial app size."
+        },
+        {
+          "id": "aaa1-19",
+          "questionText": "What is Android Play Core Library?",
+          "options": [
+            "A database library",
+            "A library for implementing Play Store features",
+            "A UI library",
+            "A testing library"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android Play Core Library is a library that helps implement Play Store features like in-app updates and dynamic delivery."
+        },
+        {
+          "id": "aaa1-20",
+          "questionText": "What is Android App Links?",
+          "options": [
+            "A database feature",
+            "A feature for deep linking and app indexing",
+            "A UI feature",
+            "A testing feature"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android App Links is a feature that allows your app to handle web links and appear in Google Search results."
+        },
+        {
+          "id": "aaa1-21",
+          "questionText": "What is Android Instant Apps?",
+          "options": [
+            "A database feature",
+            "A feature for running apps without installation",
+            "A UI feature",
+            "A testing feature"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android Instant Apps allows users to run apps without installation, providing a seamless experience."
+        },
+        {
+          "id": "aaa1-22",
+          "questionText": "What is Android App Signing?",
+          "options": [
+            "A database feature",
+            "A feature for securing app distribution",
+            "A UI feature",
+            "A testing feature"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android App Signing is a feature that helps secure app distribution by managing app signing keys."
+        },
+        {
+          "id": "aaa1-23",
+          "questionText": "What is Android Play Console?",
+          "options": [
+            "A database tool",
+            "A platform for managing app distribution",
+            "A UI tool",
+            "A testing tool"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android Play Console is a platform for managing app distribution, analytics, and user feedback."
+        },
+        {
+          "id": "aaa1-24",
+          "questionText": "What is Android Play Billing?",
+          "options": [
+            "A database library",
+            "A library for implementing in-app purchases",
+            "A UI library",
+            "A testing library"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android Play Billing is a library that helps implement in-app purchases and subscriptions."
+        },
+        {
+          "id": "aaa1-25",
+          "questionText": "What is Android Play Games Services?",
+          "options": [
+            "A database service",
+            "A service for implementing game features",
+            "A UI service",
+            "A testing service"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Android Play Games Services is a service that helps implement game features like achievements and leaderboards."
         }
       ]
     }
