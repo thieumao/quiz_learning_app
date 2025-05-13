@@ -1,6 +1,22 @@
 {
   "categories": [
     {
+      "id": "ios",
+      "name": "iOS",
+      "description": "Learn about iOS development",
+      "icon": "ios_icon.png",
+      "difficultyLevels": ["Beginner", "Intermediate", "Advanced"],
+      "quizFile": "ios_quizzes.json"
+    },
+    {
+      "id": "android",
+      "name": "Android",
+      "description": "Learn about Android development",
+      "icon": "android_icon.png",
+      "difficultyLevels": ["Beginner", "Intermediate", "Advanced"],
+      "quizFile": "android_quizzes.json"
+    },
+    {
       "id": "flutter",
       "name": "Flutter",
       "description": "Learn about Flutter development",
@@ -23,22 +39,6 @@
       "icon": "kmp_icon.png",
       "difficultyLevels": ["Beginner", "Intermediate", "Advanced"],
       "quizFile": "kotlin_multiplatform_quizzes.json"
-    },
-    {
-      "id": "ios",
-      "name": "iOS",
-      "description": "Learn about iOS development",
-      "icon": "ios_icon.png",
-      "difficultyLevels": ["Beginner", "Intermediate", "Advanced"],
-      "quizFile": "ios_quizzes.json"
-    },
-    {
-      "id": "android",
-      "name": "Android",
-      "description": "Learn about Android development",
-      "icon": "android_icon.png",
-      "difficultyLevels": ["Beginner", "Intermediate", "Advanced"],
-      "quizFile": "android_quizzes.json"
     }
   ]
 } 

@@ -11,57 +11,129 @@
           "id": "fb1-1",
           "questionText": "What is Flutter?",
           "options": [
-            "A programming language",
-            "A UI framework for building cross-platform applications",
             "A database management system",
-            "An operating system"
+            "A UI framework for building cross-platform apps",
+            "A programming language",
+            "A web framework"
           ],
           "correctAnswerIndex": 1,
           "explanation": "Flutter is a UI framework developed by Google for building natively compiled applications for mobile, web, and desktop from a single codebase."
         },
         {
           "id": "fb1-2",
-          "questionText": "Which widget is used to create a scrollable list in Flutter?",
+          "questionText": "What is a Widget in Flutter?",
           "options": [
-            "Container",
-            "ListView",
-            "Column",
-            "Row"
+            "A database component",
+            "A building block of the UI",
+            "A networking component",
+            "A testing component"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "ListView is a scrollable list of widgets arranged linearly."
+          "explanation": "Widgets are the basic building blocks of Flutter UI. Everything in Flutter is a widget, from buttons to layouts."
+        },
+        {
+          "id": "fb1-3",
+          "questionText": "What is the difference between StatelessWidget and StatefulWidget?",
+          "options": [
+            "StatelessWidget is for web apps, StatefulWidget is for mobile apps",
+            "StatelessWidget is immutable, StatefulWidget can change over time",
+            "StatelessWidget is faster, StatefulWidget is slower",
+            "There is no difference"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "StatelessWidget is immutable and cannot change its state, while StatefulWidget can maintain state that might change during the widget's lifetime."
+        },
+        {
+          "id": "fb1-4",
+          "questionText": "What is Hot Reload in Flutter?",
+          "options": [
+            "A database feature",
+            "A feature that allows you to see changes instantly without restarting the app",
+            "A networking feature",
+            "A testing feature"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Hot Reload is a feature that allows you to see changes in your code instantly without losing the app's state or restarting the app."
+        },
+        {
+          "id": "fb1-5",
+          "questionText": "What is the main() function in Flutter?",
+          "options": [
+            "A database function",
+            "The entry point of a Flutter application",
+            "A networking function",
+            "A testing function"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "The main() function is the entry point of a Flutter application. It's where the app starts executing."
         }
       ]
     },
     {
       "id": "flutter_intermediate_1",
       "title": "Flutter Intermediate",
-      "description": "Intermediate concepts in Flutter",
+      "description": "Intermediate concepts in Flutter development",
       "difficulty": "Intermediate",
       "questions": [
         {
           "id": "fi1-1",
-          "questionText": "What is a Future in Flutter?",
+          "questionText": "What is Provider in Flutter?",
           "options": [
-            "A widget that displays a future date",
-            "A class representing a value or error that will be available at some time in the future",
-            "A function that runs in the future",
-            "A state management solution"
+            "A database package",
+            "A state management solution",
+            "A networking package",
+            "A testing package"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "A Future in Dart (Flutter) is a class representing a value or error that will be available at some time in the future."
+          "explanation": "Provider is a state management solution that makes it easy to manage and share state across widgets in a Flutter app."
         },
         {
           "id": "fi1-2",
-          "questionText": "Which package is commonly used for state management in Flutter?",
+          "questionText": "What is the purpose of async/await in Flutter?",
           "options": [
-            "http",
-            "provider",
-            "sqflite",
-            "shared_preferences"
+            "To handle UI updates",
+            "To handle asynchronous operations",
+            "To handle database operations only",
+            "To handle networking operations only"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Provider is a popular package for state management in Flutter."
+          "explanation": "async/await is used to handle asynchronous operations in Flutter, making it easier to work with Futures and asynchronous code."
+        },
+        {
+          "id": "fi1-3",
+          "questionText": "What is the purpose of Navigator in Flutter?",
+          "options": [
+            "To handle database navigation",
+            "To manage app navigation and routing",
+            "To handle network navigation",
+            "To handle file navigation"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Navigator is a widget that manages a stack of routes to help move between screens in a Flutter app."
+        },
+        {
+          "id": "fi1-4",
+          "questionText": "What is the purpose of Future in Flutter?",
+          "options": [
+            "To handle UI updates",
+            "To represent a value or error that will be available at some time in the future",
+            "To handle database operations only",
+            "To handle networking operations only"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Future represents a value or error that will be available at some time in the future, commonly used for asynchronous operations."
+        },
+        {
+          "id": "fi1-5",
+          "questionText": "What is the purpose of Stream in Flutter?",
+          "options": [
+            "To handle UI updates",
+            "To handle a sequence of asynchronous events",
+            "To handle database operations only",
+            "To handle networking operations only"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Stream is used to handle a sequence of asynchronous events, allowing you to process data as it becomes available."
         }
       ]
     },
@@ -73,27 +145,63 @@
       "questions": [
         {
           "id": "fa1-1",
-          "questionText": "What is a Flutter isolate?",
+          "questionText": "What is the purpose of Flutter's CustomPainter?",
           "options": [
-            "A widget that isolates a portion of the UI",
-            "A separate execution thread that runs Dart code concurrently",
-            "A state management solution",
-            "A Flutter plugin"
+            "To handle database operations",
+            "To create custom graphics and animations",
+            "To handle networking operations",
+            "To handle file operations"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "A Flutter isolate is a separate execution thread that runs Dart code concurrently, allowing parallel execution without blocking the main thread."
+          "explanation": "CustomPainter is a class that allows you to create custom graphics and animations by painting on a canvas."
         },
         {
           "id": "fa1-2",
-          "questionText": "Which Flutter widget is used for custom painting?",
+          "questionText": "What is the purpose of Flutter's InheritedWidget?",
           "options": [
-            "CustomPaint",
-            "CustomScrollView",
-            "CustomSingleChildLayout",
-            "CustomMultiChildLayout"
+            "To handle database operations",
+            "To efficiently pass data down the widget tree",
+            "To handle networking operations",
+            "To handle file operations"
           ],
-          "correctAnswerIndex": 0,
-          "explanation": "CustomPaint is a widget that provides a canvas on which to draw during the paint phase."
+          "correctAnswerIndex": 1,
+          "explanation": "InheritedWidget is a base class that allows efficient propagation of data down the widget tree without manually passing it through constructors."
+        },
+        {
+          "id": "fa1-3",
+          "questionText": "What is the purpose of Flutter's Platform Channels?",
+          "options": [
+            "To handle database operations",
+            "To communicate between Flutter and platform-specific code",
+            "To handle networking operations",
+            "To handle file operations"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Platform Channels allow Flutter to communicate with platform-specific code (Android/iOS) to access native features and APIs."
+        },
+        {
+          "id": "fa1-4",
+          "questionText": "What is the purpose of Flutter's Isolate?",
+          "options": [
+            "To handle UI updates",
+            "To run code in a separate thread",
+            "To handle database operations",
+            "To handle networking operations"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Isolate allows you to run code in a separate thread, useful for CPU-intensive tasks that shouldn't block the main thread."
+        },
+        {
+          "id": "fa1-5",
+          "questionText": "What is the purpose of Flutter's RenderObject?",
+          "options": [
+            "To handle database operations",
+            "To handle the actual rendering of widgets",
+            "To handle networking operations",
+            "To handle file operations"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "RenderObject is the base class for objects that handle the actual rendering of widgets, managing layout and painting."
         }
       ]
     }
