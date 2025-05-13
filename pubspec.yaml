@@ -1,5 +1,5 @@
 name: mobile_dev_quiz
-description: A quiz app for mobile developers to test and improve their knowledge.
+description: Learn Mobile Development Through Smart Quizzes - Test and improve your mobile development skills with our comprehensive quiz platform.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -38,6 +38,10 @@ dependencies:
   provider: ^6.1.1
   shared_preferences: ^2.2.2
   flutter_animate: ^4.5.0
+  flutter_svg: ^2.0.9
+  flutter_staggered_animations: ^1.1.1
+  flutter_slidable: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
 
 dev_dependencies:
   flutter_test:
@@ -65,6 +69,7 @@ flutter:
   assets:
     - assets/data/
     - assets/images/
+    - assets/icons/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -91,3 +96,18 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#1565C0"
+  adaptive_icon_foreground: "assets/icons/app_icon.png"
+  remove_alpha_ios: true
+  web:
+    generate: false
+  windows:
+    generate: false
+  macos:
+    generate: false
