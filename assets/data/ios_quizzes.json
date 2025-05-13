@@ -68,32 +68,8 @@
           "explanation": "The App Delegate is an object that handles app-level events and manages the app's lifecycle."
         },
         {
-          "id": "ib1-5",
-          "questionText": "What is a ViewController in iOS?",
-          "options": [
-            "A database component",
-            "A component that manages a view and its subviews",
-            "A networking component",
-            "A testing component"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "A ViewController is a component that manages a view and its subviews, handling user interactions and view lifecycle."
-        },
-        {
-          "id": "ib1-6",
-          "questionText": "What is Auto Layout in iOS?",
-          "options": [
-            "A database system",
-            "A system for creating adaptive user interfaces",
-            "A networking system",
-            "A testing system"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "Auto Layout is a system for creating adaptive user interfaces that respond to different screen sizes and orientations."
-        },
-        {
-          "id": "ib1-7",
-          "questionText": "What is a Storyboard in iOS?",
+          "id": "iosb1-6",
+          "questionText": "What is a Storyboard?",
           "options": [
             "A database tool",
             "A visual representation of the app's user interface",
@@ -104,8 +80,8 @@
           "explanation": "Storyboard is a visual representation of the app's user interface, showing screens and the connections between them."
         },
         {
-          "id": "ib1-8",
-          "questionText": "What is a Delegate in iOS?",
+          "id": "iosb1-7",
+          "questionText": "What is a Delegate?",
           "options": [
             "A database pattern",
             "A design pattern for communication between objects",
@@ -116,8 +92,8 @@
           "explanation": "Delegate is a design pattern that allows one object to communicate with another object without creating a strong coupling between them."
         },
         {
-          "id": "ib1-9",
-          "questionText": "What is a Protocol in iOS?",
+          "id": "iosb1-8",
+          "questionText": "What is a Protocol?",
           "options": [
             "A database type",
             "A blueprint of methods and properties",
@@ -128,68 +104,8 @@
           "explanation": "Protocol is a blueprint of methods and properties that can be adopted by classes, structs, or enums."
         },
         {
-          "id": "ib1-10",
-          "questionText": "What is a ViewController in iOS?",
-          "options": [
-            "A database component",
-            "A controller that manages a view and its subviews",
-            "A networking component",
-            "A testing component"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "ViewController is a controller that manages a view and its subviews, handling user interactions and view lifecycle."
-        },
-        {
-          "id": "ib1-11",
-          "questionText": "What is Auto Layout in iOS?",
-          "options": [
-            "A database system",
-            "A system for creating adaptive user interfaces",
-            "A networking system",
-            "A testing system"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "Auto Layout is a system for creating adaptive user interfaces that respond to different screen sizes and orientations."
-        },
-        {
-          "id": "ib1-12",
-          "questionText": "What is a Storyboard in iOS?",
-          "options": [
-            "A database tool",
-            "A visual representation of the app's user interface",
-            "A networking tool",
-            "A testing tool"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "Storyboard is a visual representation of the app's user interface, showing screens and the connections between them."
-        },
-        {
-          "id": "ib1-13",
-          "questionText": "What is a Delegate in iOS?",
-          "options": [
-            "A database pattern",
-            "A design pattern for communication between objects",
-            "A networking pattern",
-            "A testing pattern"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "Delegate is a design pattern that allows one object to communicate with another object without creating a strong coupling between them."
-        },
-        {
-          "id": "ib1-14",
-          "questionText": "What is a Protocol in iOS?",
-          "options": [
-            "A database type",
-            "A blueprint of methods and properties",
-            "A networking type",
-            "A testing type"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "Protocol is a blueprint of methods and properties that can be adopted by classes, structs, or enums."
-        },
-        {
-          "id": "ib1-15",
-          "questionText": "What is Core Data in iOS?",
+          "id": "iosb1-9",
+          "questionText": "What is Core Data?",
           "options": [
             "A UI framework",
             "A framework for managing the model layer of an app",
@@ -198,6 +114,78 @@
           ],
           "correctAnswerIndex": 1,
           "explanation": "Core Data is a framework for managing the model layer of an app, providing object persistence and data management."
+        },
+        {
+          "id": "iosb1-10",
+          "questionText": "What is a Navigation Controller?",
+          "options": [
+            "A database controller",
+            "A controller that manages navigation between view controllers",
+            "A networking controller",
+            "A testing controller"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Navigation Controller manages navigation between view controllers, providing a hierarchical navigation interface."
+        },
+        {
+          "id": "iosb1-11",
+          "questionText": "What is a Tab Bar Controller?",
+          "options": [
+            "A database controller",
+            "A controller that manages multiple view controllers in a tabbed interface",
+            "A networking controller",
+            "A testing controller"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Tab Bar Controller manages multiple view controllers in a tabbed interface, allowing users to switch between different sections of the app."
+        },
+        {
+          "id": "iosb1-12",
+          "questionText": "What is a Collection View?",
+          "options": [
+            "A database view",
+            "A view that displays an ordered collection of items",
+            "A networking view",
+            "A testing view"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Collection View displays an ordered collection of items in a customizable layout."
+        },
+        {
+          "id": "iosb1-13",
+          "questionText": "What is a Table View?",
+          "options": [
+            "A database view",
+            "A view that displays a single column of scrollable content",
+            "A networking view",
+            "A testing view"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Table View displays a single column of scrollable content, divided into rows and sections."
+        },
+        {
+          "id": "iosb1-14",
+          "questionText": "What is a Gesture Recognizer?",
+          "options": [
+            "A database component",
+            "A component that interprets user gestures",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Gesture Recognizer interprets user gestures and triggers appropriate actions in response."
+        },
+        {
+          "id": "iosb1-15",
+          "questionText": "What is a Stack View?",
+          "options": [
+            "A database view",
+            "A view that arranges its children in a stack",
+            "A networking view",
+            "A testing view"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Stack View arranges its children in a stack, either horizontally or vertically, with customizable spacing and alignment."
         }
       ]
     },
@@ -268,56 +256,8 @@
           "explanation": "Grand Central Dispatch is a framework that provides APIs for concurrent programming and task management."
         },
         {
-          "id": "ii1-5",
-          "questionText": "What is Combine in iOS?",
-          "options": [
-            "A database framework",
-            "A framework for handling asynchronous events",
-            "A UI framework",
-            "A testing framework"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "Combine is a framework that provides a declarative way to handle asynchronous events and data streams."
-        },
-        {
-          "id": "ii1-6",
-          "questionText": "What is SwiftUI in iOS?",
-          "options": [
-            "A database framework",
-            "A modern UI framework",
-            "A networking framework",
-            "A testing framework"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "SwiftUI is a modern UI framework that lets you build user interfaces across all Apple platforms using Swift."
-        },
-        {
-          "id": "ii1-7",
-          "questionText": "What is URLSession in iOS?",
-          "options": [
-            "A database framework",
-            "A networking framework for HTTP requests",
-            "A UI framework",
-            "A testing framework"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "URLSession is a framework for making HTTP requests and handling network data transfer tasks."
-        },
-        {
-          "id": "ii1-8",
-          "questionText": "What is Grand Central Dispatch (GCD) in iOS?",
-          "options": [
-            "A database framework",
-            "A concurrency framework",
-            "A UI framework",
-            "A testing framework"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "Grand Central Dispatch is a concurrency framework that helps manage the execution of tasks in iOS applications."
-        },
-        {
-          "id": "ii1-9",
-          "questionText": "What is Keychain in iOS?",
+          "id": "iosi1-6",
+          "questionText": "What is Keychain?",
           "options": [
             "A database framework",
             "A secure storage system",
@@ -328,8 +268,8 @@
           "explanation": "Keychain is a secure storage system for sensitive data like passwords, certificates, and keys."
         },
         {
-          "id": "ii1-10",
-          "questionText": "What is UserDefaults in iOS?",
+          "id": "iosi1-7",
+          "questionText": "What is UserDefaults?",
           "options": [
             "A database framework",
             "A system for storing user preferences",
@@ -340,80 +280,8 @@
           "explanation": "UserDefaults is a system for storing user preferences and other small pieces of data persistently."
         },
         {
-          "id": "ii1-11",
-          "questionText": "What is Combine in iOS?",
-          "options": [
-            "A database framework",
-            "A framework for handling asynchronous events",
-            "A UI framework",
-            "A testing framework"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "Combine is a framework for handling asynchronous events by combining event-processing operators."
-        },
-        {
-          "id": "ii1-12",
-          "questionText": "What is SwiftUI in iOS?",
-          "options": [
-            "A database framework",
-            "A declarative UI framework",
-            "A networking framework",
-            "A testing framework"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "SwiftUI is a declarative UI framework for building user interfaces across Apple platforms."
-        },
-        {
-          "id": "ii1-13",
-          "questionText": "What is URLSession in iOS?",
-          "options": [
-            "A database framework",
-            "A framework for network requests",
-            "A UI framework",
-            "A testing framework"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "URLSession is a framework for making network requests and handling responses in iOS apps."
-        },
-        {
-          "id": "ii1-14",
-          "questionText": "What is Grand Central Dispatch (GCD) in iOS?",
-          "options": [
-            "A database system",
-            "A system for concurrent code execution",
-            "A UI system",
-            "A testing system"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "Grand Central Dispatch is a system for concurrent code execution, managing thread pools and task scheduling."
-        },
-        {
-          "id": "ii1-15",
-          "questionText": "What is Keychain in iOS?",
-          "options": [
-            "A database system",
-            "A secure storage system for sensitive data",
-            "A UI system",
-            "A testing system"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "Keychain is a secure storage system for sensitive data like passwords and encryption keys."
-        },
-        {
-          "id": "ii1-16",
-          "questionText": "What is UserDefaults in iOS?",
-          "options": [
-            "A database system",
-            "A system for storing user preferences",
-            "A UI system",
-            "A testing system"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "UserDefaults is a system for storing user preferences and app settings persistently."
-        },
-        {
-          "id": "ii1-17",
-          "questionText": "What is Core Animation in iOS?",
+          "id": "iosi1-8",
+          "questionText": "What is Core Animation?",
           "options": [
             "A database framework",
             "A framework for creating animations",
@@ -424,8 +292,8 @@
           "explanation": "Core Animation is a framework for creating smooth animations and transitions in iOS apps."
         },
         {
-          "id": "ii1-18",
-          "questionText": "What is Core Graphics in iOS?",
+          "id": "iosi1-9",
+          "questionText": "What is Core Graphics?",
           "options": [
             "A database framework",
             "A framework for 2D graphics and drawing",
@@ -436,8 +304,8 @@
           "explanation": "Core Graphics is a framework for 2D graphics and drawing, providing low-level drawing capabilities."
         },
         {
-          "id": "ii1-19",
-          "questionText": "What is Core Image in iOS?",
+          "id": "iosi1-10",
+          "questionText": "What is Core Image?",
           "options": [
             "A database framework",
             "A framework for image processing",
@@ -448,8 +316,8 @@
           "explanation": "Core Image is a framework for image processing, providing filters and effects for images."
         },
         {
-          "id": "ii1-20",
-          "questionText": "What is AVFoundation in iOS?",
+          "id": "iosi1-11",
+          "questionText": "What is AVFoundation?",
           "options": [
             "A database framework",
             "A framework for audio and video",
@@ -460,8 +328,8 @@
           "explanation": "AVFoundation is a framework for working with audio and video, providing playback and recording capabilities."
         },
         {
-          "id": "ii1-21",
-          "questionText": "What is MapKit in iOS?",
+          "id": "iosi1-12",
+          "questionText": "What is MapKit?",
           "options": [
             "A database framework",
             "A framework for maps and location services",
@@ -470,6 +338,102 @@
           ],
           "correctAnswerIndex": 1,
           "explanation": "MapKit is a framework for maps and location services, providing map display and location-based features."
+        },
+        {
+          "id": "iosi1-13",
+          "questionText": "What is Core Location?",
+          "options": [
+            "A database framework",
+            "A framework for location services",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Core Location is a framework that provides location and heading information to apps."
+        },
+        {
+          "id": "iosi1-14",
+          "questionText": "What is Core Motion?",
+          "options": [
+            "A database framework",
+            "A framework for motion and fitness data",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Core Motion is a framework that provides access to motion and fitness data from device sensors."
+        },
+        {
+          "id": "iosi1-15",
+          "questionText": "What is Core Bluetooth?",
+          "options": [
+            "A database framework",
+            "A framework for Bluetooth communication",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Core Bluetooth is a framework that provides access to Bluetooth Low Energy devices."
+        },
+        {
+          "id": "iosi1-16",
+          "questionText": "What is Core NFC?",
+          "options": [
+            "A database framework",
+            "A framework for Near Field Communication",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Core NFC is a framework that provides access to Near Field Communication tags."
+        },
+        {
+          "id": "iosi1-17",
+          "questionText": "What is Core Spotlight?",
+          "options": [
+            "A database framework",
+            "A framework for app content search",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Core Spotlight is a framework that allows apps to make their content searchable in Spotlight."
+        },
+        {
+          "id": "iosi1-18",
+          "questionText": "What is Core ML?",
+          "options": [
+            "A database framework",
+            "A framework for machine learning",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Core ML is a framework that allows apps to use machine learning models for predictions."
+        },
+        {
+          "id": "iosi1-19",
+          "questionText": "What is Vision?",
+          "options": [
+            "A database framework",
+            "A framework for computer vision",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Vision is a framework that provides high-performance image analysis and computer vision capabilities."
+        },
+        {
+          "id": "iosi1-20",
+          "questionText": "What is Natural Language?",
+          "options": [
+            "A database framework",
+            "A framework for natural language processing",
+            "A UI framework",
+            "A testing framework"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Natural Language is a framework that provides natural language processing capabilities for text analysis."
         }
       ]
     },
@@ -493,18 +457,6 @@
         },
         {
           "id": "iosa1-2",
-          "questionText": "What is Core Animation?",
-          "options": [
-            "A database framework",
-            "A framework for advanced animations",
-            "A networking library",
-            "A testing framework"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "Core Animation is a framework that provides advanced animation capabilities for iOS apps."
-        },
-        {
-          "id": "iosa1-3",
           "questionText": "What is Instruments?",
           "options": [
             "A database framework",
@@ -516,56 +468,8 @@
           "explanation": "Instruments is a performance analysis tool that helps identify and fix performance issues in iOS apps."
         },
         {
-          "id": "iosa1-4",
-          "questionText": "What is TestFlight?",
-          "options": [
-            "A database framework",
-            "A beta testing platform",
-            "A UI framework",
-            "A testing framework"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "TestFlight is Apple's platform for beta testing iOS apps before releasing them to the App Store."
-        },
-        {
-          "id": "iosa1-5",
-          "questionText": "What is App Store Connect?",
-          "options": [
-            "A database framework",
-            "A platform for managing app distribution",
-            "A UI framework",
-            "A testing framework"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "App Store Connect is a platform for managing app distribution, analytics, and user feedback."
-        },
-        {
-          "id": "ia1-5",
-          "questionText": "What is Metal in iOS?",
-          "options": [
-            "A database framework",
-            "A graphics and compute framework",
-            "A UI framework",
-            "A testing framework"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "Metal is a graphics and compute framework that provides near-direct access to the GPU."
-        },
-        {
-          "id": "ia1-6",
-          "questionText": "What is Core Animation in iOS?",
-          "options": [
-            "A database framework",
-            "A framework for advanced animations",
-            "A UI framework",
-            "A testing framework"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "Core Animation is a framework that provides advanced animation capabilities for iOS applications."
-        },
-        {
-          "id": "ia1-7",
-          "questionText": "What is App Clips in iOS?",
+          "id": "iosa1-3",
+          "questionText": "What is App Clips?",
           "options": [
             "A database feature",
             "A way to provide a small part of your app",
@@ -576,8 +480,8 @@
           "explanation": "App Clips are a way to provide a small part of your app that users can access quickly without installing the full app."
         },
         {
-          "id": "ia1-8",
-          "questionText": "What is WidgetKit in iOS?",
+          "id": "iosa1-4",
+          "questionText": "What is WidgetKit?",
           "options": [
             "A database framework",
             "A framework for creating widgets",
@@ -588,44 +492,8 @@
           "explanation": "WidgetKit is a framework that lets you create widgets that appear on the iOS home screen or in the Today view."
         },
         {
-          "id": "ia1-9",
-          "questionText": "What is App Store Connect in iOS?",
-          "options": [
-            "A database tool",
-            "A web-based platform for app management",
-            "A UI tool",
-            "A testing tool"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "App Store Connect is a web-based platform for managing apps, testing, and distributing them through the App Store."
-        },
-        {
-          "id": "ia1-10",
-          "questionText": "What is TestFlight in iOS?",
-          "options": [
-            "A database tool",
-            "A platform for beta testing apps",
-            "A UI tool",
-            "A testing tool"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "TestFlight is a platform that allows developers to distribute beta versions of their apps to testers for feedback."
-        },
-        {
-          "id": "ia1-11",
-          "questionText": "What is Metal in iOS?",
-          "options": [
-            "A database framework",
-            "A framework for high-performance graphics and compute",
-            "A UI framework",
-            "A testing framework"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "Metal is a framework for high-performance graphics and compute, providing low-level access to the GPU."
-        },
-        {
-          "id": "ia1-12",
-          "questionText": "What is Core ML in iOS?",
+          "id": "iosa1-5",
+          "questionText": "What is Core ML?",
           "options": [
             "A database framework",
             "A framework for machine learning",
@@ -636,8 +504,8 @@
           "explanation": "Core ML is a framework for machine learning, allowing apps to use trained models for predictions."
         },
         {
-          "id": "ia1-13",
-          "questionText": "What is ARKit in iOS?",
+          "id": "iosa1-6",
+          "questionText": "What is ARKit?",
           "options": [
             "A database framework",
             "A framework for augmented reality",
@@ -648,8 +516,8 @@
           "explanation": "ARKit is a framework for augmented reality, allowing apps to create AR experiences."
         },
         {
-          "id": "ia1-14",
-          "questionText": "What is CloudKit in iOS?",
+          "id": "iosa1-7",
+          "questionText": "What is CloudKit?",
           "options": [
             "A database framework",
             "A framework for cloud storage and sync",
@@ -660,8 +528,8 @@
           "explanation": "CloudKit is a framework for cloud storage and sync, providing backend services for iOS apps."
         },
         {
-          "id": "ia1-15",
-          "questionText": "What is Push Notifications in iOS?",
+          "id": "iosa1-8",
+          "questionText": "What is Push Notifications?",
           "options": [
             "A database service",
             "A service for sending notifications to users",
@@ -672,8 +540,8 @@
           "explanation": "Push Notifications is a service for sending notifications to users, even when the app is not running."
         },
         {
-          "id": "ia1-16",
-          "questionText": "What is In-App Purchase in iOS?",
+          "id": "iosa1-9",
+          "questionText": "What is In-App Purchase?",
           "options": [
             "A database feature",
             "A feature for selling digital content",
@@ -684,56 +552,8 @@
           "explanation": "In-App Purchase is a feature for selling digital content within apps, managed through the App Store."
         },
         {
-          "id": "ia1-17",
-          "questionText": "What is App Clips in iOS?",
-          "options": [
-            "A database feature",
-            "A feature for lightweight app experiences",
-            "A UI feature",
-            "A testing feature"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "App Clips is a feature for lightweight app experiences, allowing users to try apps without full installation."
-        },
-        {
-          "id": "ia1-18",
-          "questionText": "What is WidgetKit in iOS?",
-          "options": [
-            "A database framework",
-            "A framework for creating home screen widgets",
-            "A UI framework",
-            "A testing framework"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "WidgetKit is a framework for creating home screen widgets, providing glanceable information to users."
-        },
-        {
-          "id": "ia1-19",
-          "questionText": "What is App Store Connect in iOS?",
-          "options": [
-            "A database platform",
-            "A platform for managing app distribution",
-            "A UI platform",
-            "A testing platform"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "App Store Connect is a platform for managing app distribution, analytics, and user feedback."
-        },
-        {
-          "id": "ia1-20",
-          "questionText": "What is TestFlight in iOS?",
-          "options": [
-            "A database tool",
-            "A tool for beta testing apps",
-            "A UI tool",
-            "A testing tool"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "TestFlight is a tool for beta testing apps, allowing developers to distribute pre-release versions."
-        },
-        {
-          "id": "ia1-21",
-          "questionText": "What is App Store Review Guidelines in iOS?",
+          "id": "iosa1-10",
+          "questionText": "What is App Store Review Guidelines?",
           "options": [
             "A database document",
             "A set of rules for app submission",
@@ -744,8 +564,8 @@
           "explanation": "App Store Review Guidelines is a set of rules that apps must follow to be accepted into the App Store."
         },
         {
-          "id": "ia1-22",
-          "questionText": "What is App Store Optimization (ASO) in iOS?",
+          "id": "iosa1-11",
+          "questionText": "What is App Store Optimization (ASO)?",
           "options": [
             "A database practice",
             "A practice for improving app visibility",
@@ -756,8 +576,8 @@
           "explanation": "App Store Optimization is a practice for improving app visibility and discoverability in the App Store."
         },
         {
-          "id": "ia1-23",
-          "questionText": "What is App Store Analytics in iOS?",
+          "id": "iosa1-12",
+          "questionText": "What is App Store Analytics?",
           "options": [
             "A database tool",
             "A tool for analyzing app performance",
@@ -765,43 +585,163 @@
             "A testing tool"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "App Store Analytics is a tool for analyzing app performance, user behavior, and marketing effectiveness."
+          "explanation": "App Store Analytics is a tool for analyzing app performance, user engagement, and other metrics."
         },
         {
-          "id": "ia1-24",
-          "questionText": "What is App Store Connect API in iOS?",
+          "id": "iosa1-13",
+          "questionText": "What is App Store Connect?",
           "options": [
-            "A database API",
-            "An API for automating app management",
-            "A UI API",
-            "A testing API"
+            "A database platform",
+            "A platform for managing app distribution",
+            "A UI platform",
+            "A testing platform"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "App Store Connect API is an API for automating app management tasks in App Store Connect."
+          "explanation": "App Store Connect is a platform for managing app distribution, analytics, and user feedback."
         },
         {
-          "id": "ia1-25",
-          "questionText": "What is App Store Server Notifications in iOS?",
-          "options": [
-            "A database service",
-            "A service for receiving app events",
-            "A UI service",
-            "A testing service"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "App Store Server Notifications is a service for receiving real-time notifications about app events."
-        },
-        {
-          "id": "ia1-26",
-          "questionText": "What is App Store Connect Sales and Trends in iOS?",
+          "id": "iosa1-14",
+          "questionText": "What is TestFlight?",
           "options": [
             "A database tool",
-            "A tool for analyzing sales data",
+            "A tool for beta testing apps",
             "A UI tool",
             "A testing tool"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "App Store Connect Sales and Trends is a tool for analyzing app sales, downloads, and revenue data."
+          "explanation": "TestFlight is a tool for beta testing apps, allowing developers to distribute pre-release versions."
+        },
+        {
+          "id": "iosa1-15",
+          "questionText": "What is App Store Server Notifications?",
+          "options": [
+            "A database service",
+            "A service for receiving app store events",
+            "A UI service",
+            "A testing service"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "App Store Server Notifications is a service that sends notifications about app store events to your server."
+        },
+        {
+          "id": "iosa1-16",
+          "questionText": "What is App Store Connect API?",
+          "options": [
+            "A database API",
+            "An API for automating app store tasks",
+            "A UI API",
+            "A testing API"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "App Store Connect API is an API for automating app store tasks like managing apps and testers."
+        },
+        {
+          "id": "iosa1-17",
+          "questionText": "What is App Store Review API?",
+          "options": [
+            "A database API",
+            "An API for managing app reviews",
+            "A UI API",
+            "A testing API"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "App Store Review API is an API for managing app reviews and responding to user feedback."
+        },
+        {
+          "id": "iosa1-18",
+          "questionText": "What is App Store Promotional Offers?",
+          "options": [
+            "A database feature",
+            "A feature for offering promotional subscriptions",
+            "A UI feature",
+            "A testing feature"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "App Store Promotional Offers is a feature for offering promotional subscriptions to users."
+        },
+        {
+          "id": "iosa1-19",
+          "questionText": "What is App Store Server-to-Server Notifications?",
+          "options": [
+            "A database service",
+            "A service for receiving server-to-server notifications",
+            "A UI service",
+            "A testing service"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "App Store Server-to-Server Notifications is a service that sends notifications about app store events directly to your server."
+        },
+        {
+          "id": "iosa1-20",
+          "questionText": "What is App Store Connect Analytics API?",
+          "options": [
+            "A database API",
+            "An API for accessing app analytics data",
+            "A UI API",
+            "A testing API"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "App Store Connect Analytics API is an API for accessing app analytics data programmatically."
+        },
+        {
+          "id": "iosa1-21",
+          "questionText": "What is App Store Connect TestFlight API?",
+          "options": [
+            "A database API",
+            "An API for managing TestFlight beta testing",
+            "A UI API",
+            "A testing API"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "App Store Connect TestFlight API is an API for managing TestFlight beta testing programmatically."
+        },
+        {
+          "id": "iosa1-22",
+          "questionText": "What is App Store Connect Users and Roles API?",
+          "options": [
+            "A database API",
+            "An API for managing user access and roles",
+            "A UI API",
+            "A testing API"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "App Store Connect Users and Roles API is an API for managing user access and roles in App Store Connect."
+        },
+        {
+          "id": "iosa1-23",
+          "questionText": "What is App Store Connect Certificates API?",
+          "options": [
+            "A database API",
+            "An API for managing certificates and provisioning profiles",
+            "A UI API",
+            "A testing API"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "App Store Connect Certificates API is an API for managing certificates and provisioning profiles programmatically."
+        },
+        {
+          "id": "iosa1-24",
+          "questionText": "What is App Store Connect Devices API?",
+          "options": [
+            "A database API",
+            "An API for managing registered devices",
+            "A UI API",
+            "A testing API"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "App Store Connect Devices API is an API for managing registered devices for development and testing."
+        },
+        {
+          "id": "iosa1-25",
+          "questionText": "What is App Store Connect Builds API?",
+          "options": [
+            "A database API",
+            "An API for managing app builds",
+            "A UI API",
+            "A testing API"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "App Store Connect Builds API is an API for managing app builds and their metadata programmatically."
         }
       ]
     }

@@ -128,76 +128,64 @@
           "explanation": "useEffect is a hook that lets you perform side effects in functional components, such as data fetching or subscriptions."
         },
         {
-          "id": "rb1-10",
-          "questionText": "What is a Component in React Native?",
+          "id": "rnb1-11",
+          "questionText": "What is a StyleSheet in React Native?",
           "options": [
-            "A database element",
-            "A reusable piece of UI code",
-            "A networking element",
-            "A testing element"
+            "A database component",
+            "A component for defining styles",
+            "A networking component",
+            "A testing component"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "A Component is a reusable piece of UI code that can be composed to build complex user interfaces."
+          "explanation": "StyleSheet is a component that provides a way to define styles in React Native, similar to CSS but optimized for mobile."
         },
         {
-          "id": "rb1-11",
-          "questionText": "What is JSX in React Native?",
+          "id": "rnb1-12",
+          "questionText": "What is a TouchableOpacity in React Native?",
           "options": [
-            "A database syntax",
-            "A syntax extension for JavaScript",
-            "A networking syntax",
-            "A testing syntax"
+            "A database component",
+            "A component that responds to touch with opacity feedback",
+            "A networking component",
+            "A testing component"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "JSX is a syntax extension for JavaScript that allows you to write HTML-like code in your JavaScript files."
+          "explanation": "TouchableOpacity is a component that responds to touch with opacity feedback, commonly used for buttons."
         },
         {
-          "id": "rb1-12",
-          "questionText": "What is Props in React Native?",
+          "id": "rnb1-13",
+          "questionText": "What is a TextInput in React Native?",
           "options": [
-            "A database concept",
-            "A way to pass data between components",
-            "A networking concept",
-            "A testing concept"
+            "A database component",
+            "A component for text input",
+            "A networking component",
+            "A testing component"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Props are a way to pass data from parent to child components, making components reusable and configurable."
+          "explanation": "TextInput is a component that allows users to enter text, similar to an input field in web development."
         },
         {
-          "id": "rb1-13",
-          "questionText": "What is State in React Native?",
+          "id": "rnb1-14",
+          "questionText": "What is a ScrollView in React Native?",
           "options": [
-            "A database concept",
-            "A way to manage component data",
-            "A networking concept",
-            "A testing concept"
+            "A database component",
+            "A component for scrollable content",
+            "A networking component",
+            "A testing component"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "State is a way to manage component data that can change over time, triggering re-renders when updated."
+          "explanation": "ScrollView is a component that provides a scrollable container for content that might not fit on the screen."
         },
         {
-          "id": "rb1-14",
-          "questionText": "What is a Hook in React Native?",
+          "id": "rnb1-15",
+          "questionText": "What is a View in React Native?",
           "options": [
-            "A database feature",
-            "A way to use state and other React features",
-            "A networking feature",
-            "A testing feature"
+            "A database component",
+            "A basic building block for UI components",
+            "A networking component",
+            "A testing component"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Hooks are functions that let you use state and other React features in functional components."
-        },
-        {
-          "id": "rb1-15",
-          "questionText": "What is useEffect in React Native?",
-          "options": [
-            "A database hook",
-            "A hook for handling side effects",
-            "A networking hook",
-            "A testing hook"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "useEffect is a hook for handling side effects in functional components, like data fetching or subscriptions."
+          "explanation": "View is a basic building block for UI components, similar to a div in web development."
         }
       ]
     },
@@ -209,575 +197,551 @@
       "questions": [
         {
           "id": "rni1-1",
-          "questionText": "What is the purpose of React Navigation?",
+          "questionText": "What is the difference between ScrollView and FlatList?",
           "options": [
-            "To handle HTTP requests",
-            "To manage navigation between screens",
-            "To store data locally",
-            "To handle user authentication"
+            "ScrollView is faster than FlatList",
+            "FlatList is more memory efficient for long lists",
+            "ScrollView supports horizontal scrolling",
+            "FlatList only works with images"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "React Navigation is a library that provides navigation capabilities to React Native apps."
+          "explanation": "FlatList is more memory efficient for long lists because it only renders items that are currently visible on screen."
         },
         {
           "id": "rni1-2",
-          "questionText": "Which hook is used to manage state in functional components?",
+          "questionText": "What is the purpose of useCallback hook?",
           "options": [
-            "useEffect",
-            "useState",
-            "useContext",
-            "useReducer"
+            "To handle API calls",
+            "To memoize functions",
+            "To manage state",
+            "To handle navigation"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "useState is a React Hook that lets you add state to functional components."
+          "explanation": "useCallback is used to memoize functions, preventing unnecessary re-renders of child components that depend on these functions."
         },
         {
           "id": "rni1-3",
-          "questionText": "What is the purpose of AsyncStorage in React Native?",
+          "questionText": "What is the difference between useMemo and useCallback?",
           "options": [
-            "To make HTTP requests",
-            "To store data persistently",
-            "To handle animations",
-            "To manage navigation"
+            "useMemo is for values, useCallback is for functions",
+            "useMemo is for functions, useCallback is for values",
+            "They are exactly the same",
+            "useMemo is deprecated"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "AsyncStorage is a simple, asynchronous, persistent, key-value storage system for React Native."
+          "correctAnswerIndex": 0,
+          "explanation": "useMemo is used to memoize computed values, while useCallback is used to memoize functions."
         },
         {
           "id": "rni1-4",
-          "questionText": "Which library is commonly used for handling forms in React Native?",
+          "questionText": "What is the purpose of React.memo?",
           "options": [
-            "Redux Form",
-            "Formik",
-            "React Hook Form",
-            "All of the above"
+            "To create memoized components",
+            "To handle API calls",
+            "To manage state",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 3,
-          "explanation": "All of these libraries (Redux Form, Formik, React Hook Form) are commonly used for form handling in React Native."
+          "correctAnswerIndex": 0,
+          "explanation": "React.memo is a higher-order component that memoizes a component, preventing re-renders if props haven't changed."
         },
         {
           "id": "rni1-5",
-          "questionText": "What is Redux in React Native?",
+          "questionText": "What is the purpose of useRef?",
           "options": [
-            "A database framework",
-            "A state management library",
-            "A UI framework",
-            "A testing framework"
+            "To manage state",
+            "To create mutable references",
+            "To handle API calls",
+            "To handle navigation"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Redux is a predictable state container for JavaScript apps, commonly used for state management in React Native."
+          "explanation": "useRef creates a mutable reference that persists across re-renders and can be used to access DOM elements or store mutable values."
         },
         {
           "id": "rni1-6",
-          "questionText": "What is React Navigation in React Native?",
+          "questionText": "What is the purpose of useReducer?",
           "options": [
-            "A database framework",
-            "A navigation library",
-            "A UI framework",
-            "A testing framework"
+            "To handle API calls",
+            "To manage complex state logic",
+            "To handle navigation",
+            "To create memoized values"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "React Navigation is a library that provides navigation capabilities for React Native apps."
+          "explanation": "useReducer is used to manage complex state logic, similar to Redux but for local component state."
         },
         {
           "id": "rni1-7",
-          "questionText": "What is AsyncStorage in React Native?",
+          "questionText": "What is the purpose of useContext?",
           "options": [
-            "A database framework",
-            "A storage system for persistent data",
-            "A UI framework",
-            "A testing framework"
+            "To handle API calls",
+            "To manage state",
+            "To access context values",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "AsyncStorage is a simple, asynchronous, persistent, key-value storage system for React Native."
+          "correctAnswerIndex": 2,
+          "explanation": "useContext is used to access values from a React context, allowing components to consume context values without prop drilling."
         },
         {
           "id": "rni1-8",
-          "questionText": "What is Axios in React Native?",
+          "questionText": "What is the purpose of useLayoutEffect?",
           "options": [
-            "A database framework",
-            "A HTTP client for making requests",
-            "A UI framework",
-            "A testing framework"
+            "To handle API calls",
+            "To manage state",
+            "To handle navigation",
+            "To perform DOM measurements synchronously"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "Axios is a promise-based HTTP client for making requests in React Native applications."
+          "correctAnswerIndex": 3,
+          "explanation": "useLayoutEffect is similar to useEffect but runs synchronously after DOM mutations, useful for DOM measurements."
         },
         {
           "id": "rni1-9",
-          "questionText": "What is React Native CLI?",
+          "questionText": "What is the purpose of useImperativeHandle?",
           "options": [
-            "A database tool",
-            "A command-line interface for React Native",
-            "A UI tool",
-            "A testing tool"
+            "To handle API calls",
+            "To manage state",
+            "To customize instance value exposed to parent components",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native CLI is a command-line interface for creating and managing React Native projects."
+          "correctAnswerIndex": 2,
+          "explanation": "useImperativeHandle customizes the instance value that is exposed to parent components when using ref."
         },
         {
           "id": "rni1-10",
-          "questionText": "What is Metro in React Native?",
+          "questionText": "What is the purpose of useDebugValue?",
           "options": [
-            "A database bundler",
-            "A JavaScript bundler",
-            "A UI bundler",
-            "A testing bundler"
+            "To handle API calls",
+            "To manage state",
+            "To handle navigation",
+            "To display custom hook labels in React DevTools"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "Metro is the JavaScript bundler that comes with React Native, responsible for bundling your JavaScript code."
+          "correctAnswerIndex": 3,
+          "explanation": "useDebugValue is used to display custom hook labels in React DevTools, helpful for debugging custom hooks."
         },
         {
-          "id": "ri1-10",
-          "questionText": "What is Redux in React Native?",
+          "id": "rni1-11",
+          "questionText": "What is the purpose of useTransition?",
           "options": [
-            "A database library",
-            "A state management library",
-            "A UI library",
-            "A testing library"
+            "To handle API calls",
+            "To manage state",
+            "To mark state updates as non-urgent",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "Redux is a state management library that helps manage application state in a predictable way."
+          "correctAnswerIndex": 2,
+          "explanation": "useTransition marks state updates as non-urgent, allowing other updates to interrupt them."
         },
         {
-          "id": "ri1-11",
-          "questionText": "What is React Navigation in React Native?",
+          "id": "rni1-12",
+          "questionText": "What is the purpose of useDeferredValue?",
           "options": [
-            "A database library",
-            "A navigation library",
-            "A UI library",
-            "A testing library"
+            "To handle API calls",
+            "To manage state",
+            "To defer updating a value",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Navigation is a library for handling navigation between screens in React Native apps."
+          "correctAnswerIndex": 2,
+          "explanation": "useDeferredValue defers updating a value, allowing other updates to take precedence."
         },
         {
-          "id": "ri1-12",
-          "questionText": "What is AsyncStorage in React Native?",
+          "id": "rni1-13",
+          "questionText": "What is the purpose of useId?",
           "options": [
-            "A database system",
-            "A persistent storage system",
-            "A UI system",
-            "A testing system"
+            "To handle API calls",
+            "To manage state",
+            "To generate unique IDs",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "AsyncStorage is a persistent storage system for storing data locally on the device."
+          "correctAnswerIndex": 2,
+          "explanation": "useId generates unique IDs that are stable across server and client rendering."
         },
         {
-          "id": "ri1-13",
-          "questionText": "What is Axios in React Native?",
+          "id": "rni1-14",
+          "questionText": "What is the purpose of useSyncExternalStore?",
           "options": [
-            "A database library",
-            "A HTTP client library",
-            "A UI library",
-            "A testing library"
+            "To handle API calls",
+            "To manage state",
+            "To subscribe to external data sources",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "Axios is a HTTP client library for making network requests in React Native apps."
+          "correctAnswerIndex": 2,
+          "explanation": "useSyncExternalStore is used to subscribe to external data sources in a way that's compatible with concurrent rendering."
         },
         {
-          "id": "ri1-14",
-          "questionText": "What is React Native CLI?",
+          "id": "rni1-15",
+          "questionText": "What is the purpose of useInsertionEffect?",
           "options": [
-            "A database tool",
-            "A command-line tool for React Native",
-            "A UI tool",
-            "A testing tool"
+            "To handle API calls",
+            "To manage state",
+            "To handle navigation",
+            "To inject styles into the DOM"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native CLI is a command-line tool for creating and managing React Native projects."
+          "correctAnswerIndex": 3,
+          "explanation": "useInsertionEffect is used to inject styles into the DOM before any DOM mutations."
         },
         {
-          "id": "ri1-15",
-          "questionText": "What is Metro in React Native?",
+          "id": "rni1-16",
+          "questionText": "What is the purpose of useEvent?",
           "options": [
-            "A database bundler",
-            "A JavaScript bundler",
-            "A UI bundler",
-            "A testing bundler"
+            "To handle API calls",
+            "To manage state",
+            "To create stable event handlers",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "Metro is a JavaScript bundler for React Native that helps bundle and serve your app's code."
+          "correctAnswerIndex": 2,
+          "explanation": "useEvent creates stable event handlers that don't cause unnecessary re-renders."
         },
         {
-          "id": "ri1-16",
-          "questionText": "What is React Native Debugger?",
+          "id": "rni1-17",
+          "questionText": "What is the purpose of useMutableSource?",
           "options": [
-            "A database tool",
-            "A debugging tool",
-            "A UI tool",
-            "A testing tool"
+            "To handle API calls",
+            "To manage state",
+            "To subscribe to mutable sources",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native Debugger is a tool for debugging React Native apps, including Redux and network inspection."
+          "correctAnswerIndex": 2,
+          "explanation": "useMutableSource is used to subscribe to mutable sources in a way that's compatible with concurrent rendering."
         },
         {
-          "id": "ri1-17",
-          "questionText": "What is React Native Gesture Handler?",
+          "id": "rni1-18",
+          "questionText": "What is the purpose of useOpaqueIdentifier?",
           "options": [
-            "A database library",
-            "A gesture handling library",
-            "A UI library",
-            "A testing library"
+            "To handle API calls",
+            "To manage state",
+            "To generate stable identifiers",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native Gesture Handler is a library for handling gestures in React Native apps."
+          "correctAnswerIndex": 2,
+          "explanation": "useOpaqueIdentifier generates stable identifiers that are unique across the entire app."
         },
         {
-          "id": "ri1-18",
-          "questionText": "What is React Native Reanimated?",
+          "id": "rni1-19",
+          "questionText": "What is the purpose of useSubscription?",
           "options": [
-            "A database library",
-            "A animation library",
-            "A UI library",
-            "A testing library"
+            "To handle API calls",
+            "To manage state",
+            "To subscribe to data sources",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native Reanimated is a library for creating smooth animations in React Native apps."
+          "correctAnswerIndex": 2,
+          "explanation": "useSubscription is used to subscribe to data sources in a way that's compatible with concurrent rendering."
         },
         {
-          "id": "ri1-19",
-          "questionText": "What is React Native Vector Icons?",
+          "id": "rni1-20",
+          "questionText": "What is the purpose of useIsomorphicLayoutEffect?",
           "options": [
-            "A database library",
-            "An icon library",
-            "A UI library",
-            "A testing library"
+            "To handle API calls",
+            "To manage state",
+            "To handle navigation",
+            "To use useLayoutEffect in both client and server environments"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native Vector Icons is a library for using vector icons in React Native apps."
-        },
-        {
-          "id": "ri1-20",
-          "questionText": "What is React Native Paper?",
-          "options": [
-            "A database library",
-            "A UI component library",
-            "A networking library",
-            "A testing library"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native Paper is a UI component library that implements Material Design for React Native."
+          "correctAnswerIndex": 3,
+          "explanation": "useIsomorphicLayoutEffect is a version of useLayoutEffect that works in both client and server environments."
         }
       ]
     },
     {
       "id": "rn_advanced_1",
       "title": "React Native Advanced",
-      "description": "Advanced React Native concepts and best practices",
+      "description": "Advanced concepts in React Native development",
       "difficulty": "Advanced",
       "questions": [
         {
           "id": "rna1-1",
-          "questionText": "What is the purpose of React Native's Hermes engine?",
+          "questionText": "What is the purpose of the Hermes JavaScript engine?",
           "options": [
-            "To handle HTTP requests",
-            "To improve app performance and reduce memory usage",
-            "To manage navigation",
-            "To handle animations"
+            "To handle API calls",
+            "To manage state",
+            "To improve app performance",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "Hermes is a JavaScript engine optimized for React Native that improves app performance and reduces memory usage."
+          "correctAnswerIndex": 2,
+          "explanation": "Hermes is a JavaScript engine optimized for React Native that improves app performance, reduces memory usage, and decreases app size."
         },
         {
           "id": "rna1-2",
-          "questionText": "What is the purpose of React Native's TurboModules?",
+          "questionText": "What is the purpose of the Flipper debugging tool?",
           "options": [
-            "To handle HTTP requests",
-            "To improve performance of native modules",
+            "To handle API calls",
             "To manage state",
-            "To handle animations"
+            "To debug React Native apps",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "TurboModules is a new architecture for native modules in React Native that improves performance and type safety."
+          "correctAnswerIndex": 2,
+          "explanation": "Flipper is a platform for debugging mobile apps that provides a suite of tools for inspecting and debugging React Native apps."
         },
         {
           "id": "rna1-3",
-          "questionText": "What is the purpose of React Native's Fabric?",
+          "questionText": "What is the purpose of the React Native CLI?",
           "options": [
-            "To handle HTTP requests",
-            "To improve UI rendering performance",
+            "To handle API calls",
             "To manage state",
-            "To handle animations"
+            "To create and manage React Native projects",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "Fabric is React Native's new rendering system that improves UI performance and enables better integration with native platforms."
+          "correctAnswerIndex": 2,
+          "explanation": "The React Native CLI is a command-line interface for creating and managing React Native projects, including building and running apps."
         },
         {
           "id": "rna1-4",
-          "questionText": "What is the purpose of React Native's CodePush?",
+          "questionText": "What is the purpose of the React Native Debugger?",
           "options": [
-            "To handle HTTP requests",
-            "To push code changes to users without app store updates",
+            "To handle API calls",
             "To manage state",
-            "To handle animations"
+            "To debug React Native apps",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "CodePush allows you to push updates to your React Native app without going through the app store review process."
+          "correctAnswerIndex": 2,
+          "explanation": "The React Native Debugger is a standalone app for debugging React Native apps, providing a suite of tools for inspecting and debugging."
         },
         {
           "id": "rna1-5",
-          "questionText": "What is Hermes in React Native?",
+          "questionText": "What is the purpose of the React Native Performance Monitor?",
           "options": [
-            "A database engine",
-            "A JavaScript engine",
-            "A UI engine",
-            "A testing engine"
+            "To handle API calls",
+            "To manage state",
+            "To monitor app performance",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "Hermes is a JavaScript engine optimized for React Native, improving app performance and reducing memory usage."
+          "correctAnswerIndex": 2,
+          "explanation": "The React Native Performance Monitor is a tool for monitoring app performance, providing insights into rendering, memory usage, and more."
         },
         {
           "id": "rna1-6",
-          "questionText": "What is CodePush in React Native?",
+          "questionText": "What is the purpose of the React Native Reanimated library?",
           "options": [
-            "A database service",
-            "A service for updating apps over the air",
-            "A UI service",
-            "A testing service"
+            "To handle API calls",
+            "To manage state",
+            "To create smooth animations",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "CodePush is a service that allows you to push updates to your React Native apps without going through the app store review process."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native Reanimated is a library for creating smooth animations in React Native, using a declarative API and running animations on the native thread."
         },
         {
           "id": "rna1-7",
-          "questionText": "What is Flipper in React Native?",
+          "questionText": "What is the purpose of the React Native Gesture Handler?",
           "options": [
-            "A database debugger",
-            "A platform for debugging mobile apps",
-            "A UI debugger",
-            "A testing debugger"
+            "To handle API calls",
+            "To manage state",
+            "To handle touch gestures",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "Flipper is a platform for debugging mobile apps, providing tools for inspecting and debugging React Native apps."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native Gesture Handler is a library for handling touch gestures in React Native, providing a declarative API and running gestures on the native thread."
         },
         {
           "id": "rna1-8",
-          "questionText": "What is React Native Reanimated?",
+          "questionText": "What is the purpose of the React Native Skia?",
           "options": [
-            "A database library",
-            "A library for creating smooth animations",
-            "A UI library",
-            "A testing library"
+            "To handle API calls",
+            "To manage state",
+            "To create custom graphics",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native Reanimated is a library that provides a more powerful way to create smooth animations in React Native."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native Skia is a library for creating custom graphics in React Native, using the Skia graphics engine."
         },
         {
           "id": "rna1-9",
-          "questionText": "What is React Native Gesture Handler?",
+          "questionText": "What is the purpose of the React Native Vision Camera?",
           "options": [
-            "A database library",
-            "A library for handling gestures",
-            "A UI library",
-            "A testing library"
+            "To handle API calls",
+            "To manage state",
+            "To access the device camera",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native Gesture Handler is a library that provides native-driven gesture management for React Native."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native Vision Camera is a library for accessing the device camera in React Native, providing a declarative API and running camera operations on the native thread."
         },
         {
           "id": "rna1-10",
-          "questionText": "What is React Native Fabric?",
+          "questionText": "What is the purpose of the React Native Maps?",
           "options": [
-            "A database architecture",
-            "A new architecture for React Native",
-            "A UI architecture",
-            "A testing architecture"
+            "To handle API calls",
+            "To manage state",
+            "To display maps",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native Fabric is a new architecture that improves the performance and reliability of React Native apps."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native Maps is a library for displaying maps in React Native, providing a declarative API and running map operations on the native thread."
         },
         {
-          "id": "ra1-10",
-          "questionText": "What is Hermes in React Native?",
+          "id": "rna1-11",
+          "questionText": "What is the purpose of the React Native Firebase?",
           "options": [
-            "A database engine",
-            "A JavaScript engine",
-            "A UI engine",
-            "A testing engine"
+            "To handle API calls",
+            "To manage state",
+            "To integrate Firebase services",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "Hermes is a JavaScript engine optimized for React Native, improving app performance and reducing memory usage."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native Firebase is a library for integrating Firebase services into React Native apps, providing a declarative API and running Firebase operations on the native thread."
         },
         {
-          "id": "ra1-11",
-          "questionText": "What is CodePush in React Native?",
+          "id": "rna1-12",
+          "questionText": "What is the purpose of the React Native Async Storage?",
           "options": [
-            "A database service",
-            "A service for updating apps",
-            "A UI service",
-            "A testing service"
+            "To handle API calls",
+            "To manage state",
+            "To store data locally",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "CodePush is a service that allows you to update React Native apps without going through the app store."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native Async Storage is a library for storing data locally in React Native apps, providing a simple API for key-value storage."
         },
         {
-          "id": "ra1-12",
-          "questionText": "What is Flipper in React Native?",
+          "id": "rna1-13",
+          "questionText": "What is the purpose of the React Native SQLite?",
           "options": [
-            "A database tool",
-            "A debugging tool",
-            "A UI tool",
-            "A testing tool"
+            "To handle API calls",
+            "To manage state",
+            "To store data in a SQLite database",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "Flipper is a debugging tool for React Native apps, providing a platform for debugging mobile apps."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native SQLite is a library for storing data in a SQLite database in React Native apps, providing a simple API for database operations."
         },
         {
-          "id": "ra1-13",
-          "questionText": "What is React Native Fabric?",
+          "id": "rna1-14",
+          "questionText": "What is the purpose of the React Native Realm?",
           "options": [
-            "A database architecture",
-            "A new architecture for React Native",
-            "A UI architecture",
-            "A testing architecture"
+            "To handle API calls",
+            "To manage state",
+            "To store data in a Realm database",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native Fabric is a new architecture that improves performance and reliability of React Native apps."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native Realm is a library for storing data in a Realm database in React Native apps, providing a simple API for database operations."
         },
         {
-          "id": "ra1-14",
-          "questionText": "What is React Native TurboModules?",
+          "id": "rna1-15",
+          "questionText": "What is the purpose of the React Native WatermelonDB?",
           "options": [
-            "A database system",
-            "A system for native module communication",
-            "A UI system",
-            "A testing system"
+            "To handle API calls",
+            "To manage state",
+            "To store data in a WatermelonDB database",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "TurboModules is a system for improving the communication between JavaScript and native modules."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native WatermelonDB is a library for storing data in a WatermelonDB database in React Native apps, providing a simple API for database operations."
         },
         {
-          "id": "ra1-15",
-          "questionText": "What is React Native JSI?",
+          "id": "rna1-16",
+          "questionText": "What is the purpose of the React Native Redux?",
           "options": [
-            "A database interface",
-            "A JavaScript interface",
-            "A UI interface",
-            "A testing interface"
+            "To handle API calls",
+            "To manage state",
+            "To manage app state",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "JSI (JavaScript Interface) is a system for direct communication between JavaScript and native code."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native Redux is a library for managing app state in React Native apps, providing a predictable state container."
         },
         {
-          "id": "ra1-16",
-          "questionText": "What is React Native New Architecture?",
+          "id": "rna1-17",
+          "questionText": "What is the purpose of the React Native MobX?",
           "options": [
-            "A database architecture",
-            "A new architecture for React Native",
-            "A UI architecture",
-            "A testing architecture"
+            "To handle API calls",
+            "To manage state",
+            "To manage app state",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native New Architecture is a set of improvements to React Native's core architecture."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native MobX is a library for managing app state in React Native apps, providing a simple and scalable state management solution."
         },
         {
-          "id": "ra1-17",
-          "questionText": "What is React Native Performance Monitor?",
+          "id": "rna1-18",
+          "questionText": "What is the purpose of the React Native Zustand?",
           "options": [
-            "A database tool",
-            "A performance monitoring tool",
-            "A UI tool",
-            "A testing tool"
+            "To handle API calls",
+            "To manage state",
+            "To manage app state",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native Performance Monitor is a tool for monitoring and improving app performance."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native Zustand is a library for managing app state in React Native apps, providing a simple and lightweight state management solution."
         },
         {
-          "id": "ra1-18",
-          "questionText": "What is React Native Memory Profiler?",
+          "id": "rna1-19",
+          "questionText": "What is the purpose of the React Native Jotai?",
           "options": [
-            "A database tool",
-            "A memory profiling tool",
-            "A UI tool",
-            "A testing tool"
+            "To handle API calls",
+            "To manage state",
+            "To manage app state",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native Memory Profiler is a tool for identifying and fixing memory leaks in React Native apps."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native Jotai is a library for managing app state in React Native apps, providing a simple and atomic state management solution."
         },
         {
-          "id": "ra1-19",
-          "questionText": "What is React Native Network Inspector?",
+          "id": "rna1-20",
+          "questionText": "What is the purpose of the React Native Recoil?",
           "options": [
-            "A database tool",
-            "A network debugging tool",
-            "A UI tool",
-            "A testing tool"
+            "To handle API calls",
+            "To manage state",
+            "To manage app state",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native Network Inspector is a tool for debugging network requests in React Native apps."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native Recoil is a library for managing app state in React Native apps, providing a simple and experimental state management solution."
         },
         {
-          "id": "ra1-20",
-          "questionText": "What is React Native Layout Inspector?",
+          "id": "rna1-21",
+          "questionText": "What is the purpose of the React Native Apollo Client?",
           "options": [
-            "A database tool",
-            "A layout debugging tool",
-            "A UI tool",
-            "A testing tool"
+            "To handle API calls",
+            "To manage state",
+            "To manage GraphQL data",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native Layout Inspector is a tool for debugging and optimizing layouts in React Native apps."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native Apollo Client is a library for managing GraphQL data in React Native apps, providing a simple and powerful data management solution."
         },
         {
-          "id": "ra1-21",
-          "questionText": "What is React Native Component Profiler?",
+          "id": "rna1-22",
+          "questionText": "What is the purpose of the React Native Relay?",
           "options": [
-            "A database tool",
-            "A component performance tool",
-            "A UI tool",
-            "A testing tool"
+            "To handle API calls",
+            "To manage state",
+            "To manage GraphQL data",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native Component Profiler is a tool for analyzing component performance and rendering."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native Relay is a library for managing GraphQL data in React Native apps, providing a simple and powerful data management solution."
         },
         {
-          "id": "ra1-22",
-          "questionText": "What is React Native Bridge?",
+          "id": "rna1-23",
+          "questionText": "What is the purpose of the React Native URQL?",
           "options": [
-            "A database system",
-            "A communication system between JS and native",
-            "A UI system",
-            "A testing system"
+            "To handle API calls",
+            "To manage state",
+            "To manage GraphQL data",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native Bridge is a system for communication between JavaScript and native code."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native URQL is a library for managing GraphQL data in React Native apps, providing a simple and lightweight data management solution."
         },
         {
-          "id": "ra1-23",
-          "questionText": "What is React Native Thread Model?",
+          "id": "rna1-24",
+          "questionText": "What is the purpose of the React Native GraphQL Code Generator?",
           "options": [
-            "A database model",
-            "A model for handling threads",
-            "A UI model",
-            "A testing model"
+            "To handle API calls",
+            "To manage state",
+            "To generate TypeScript types from GraphQL schema",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native Thread Model is a model for handling different threads in React Native apps."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native GraphQL Code Generator is a library for generating TypeScript types from GraphQL schema in React Native apps, providing a simple and powerful type generation solution."
         },
         {
-          "id": "ra1-24",
-          "questionText": "What is React Native Turbo?",
+          "id": "rna1-25",
+          "questionText": "What is the purpose of the React Native GraphQL Request?",
           "options": [
-            "A database system",
-            "A performance optimization system",
-            "A UI system",
-            "A testing system"
+            "To handle API calls",
+            "To manage state",
+            "To make GraphQL requests",
+            "To handle navigation"
           ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native Turbo is a system for optimizing performance in React Native apps."
-        },
-        {
-          "id": "ra1-25",
-          "questionText": "What is React Native New Architecture Migration?",
-          "options": [
-            "A database process",
-            "A process for upgrading to new architecture",
-            "A UI process",
-            "A testing process"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "React Native New Architecture Migration is a process for upgrading apps to the new React Native architecture."
+          "correctAnswerIndex": 2,
+          "explanation": "React Native GraphQL Request is a library for making GraphQL requests in React Native apps, providing a simple and lightweight request solution."
         }
       ]
     }

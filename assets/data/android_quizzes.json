@@ -4,17 +4,17 @@
     {
       "id": "android_beginner_1",
       "title": "Android Basics",
-      "description": "Test your knowledge of Android development fundamentals",
+      "description": "Test your knowledge of Android fundamentals",
       "difficulty": "Beginner",
       "questions": [
         {
           "id": "ab1-1",
           "questionText": "What is Android?",
           "options": [
-            "A database management system",
-            "A mobile operating system",
             "A programming language",
-            "A UI framework"
+            "A mobile operating system",
+            "A database system",
+            "A web framework"
           ],
           "correctAnswerIndex": 1,
           "explanation": "Android is a mobile operating system developed by Google, based on the Linux kernel."
@@ -24,39 +24,15 @@
           "questionText": "What is an Activity in Android?",
           "options": [
             "A database component",
-            "A screen in an Android app",
+            "A single screen in an app",
             "A networking component",
             "A testing component"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "An Activity is a single screen in an Android app that users can interact with."
+          "explanation": "An Activity is a single screen in an Android app, representing a focused thing a user can do."
         },
         {
           "id": "ab1-3",
-          "questionText": "What is a Layout in Android?",
-          "options": [
-            "A database structure",
-            "A structure that defines the UI for an Activity",
-            "A networking protocol",
-            "A testing framework"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "A Layout defines the structure and appearance of the UI for an Activity in Android."
-        },
-        {
-          "id": "ab1-4",
-          "questionText": "What is the Android Manifest?",
-          "options": [
-            "A database configuration file",
-            "A configuration file that describes the app",
-            "A networking configuration",
-            "A testing configuration"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "The Android Manifest is a configuration file that describes essential information about the app to the Android system."
-        },
-        {
-          "id": "ab1-5",
           "questionText": "What is a Fragment in Android?",
           "options": [
             "A database component",
@@ -68,35 +44,71 @@
           "explanation": "A Fragment is a reusable UI component that represents a portion of a user interface in an Activity."
         },
         {
-          "id": "ab1-6",
-          "questionText": "What is an Intent in Android?",
+          "id": "ab1-4",
+          "questionText": "What is a Layout in Android?",
           "options": [
             "A database component",
-            "A messaging object for requesting actions from other components",
+            "A UI structure",
             "A networking component",
             "A testing component"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "An Intent is a messaging object that can be used to request an action from another app component."
+          "explanation": "A Layout is a UI structure that defines how views are arranged on the screen."
+        },
+        {
+          "id": "ab1-5",
+          "questionText": "What is a View in Android?",
+          "options": [
+            "A database component",
+            "A UI component",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A View is a basic building block for UI components in Android."
+        },
+        {
+          "id": "ab1-6",
+          "questionText": "What is a ViewGroup in Android?",
+          "options": [
+            "A database component",
+            "A container for views",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A ViewGroup is a container for views, used to organize and manage other views."
         },
         {
           "id": "ab1-7",
-          "questionText": "What is a Service in Android?",
+          "questionText": "What is an Intent in Android?",
           "options": [
             "A database component",
-            "A component that runs in the background without a UI",
+            "A messaging object",
             "A networking component",
             "A testing component"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "A Service is a component that runs in the background to perform long-running operations without a user interface."
+          "explanation": "An Intent is a messaging object used to request an action from another component."
         },
         {
           "id": "ab1-8",
+          "questionText": "What is a Service in Android?",
+          "options": [
+            "A database component",
+            "A background component",
+            "A networking component",
+            "A testing component"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A Service is a component that runs in the background to perform long-running operations."
+        },
+        {
+          "id": "ab1-9",
           "questionText": "What is a BroadcastReceiver in Android?",
           "options": [
             "A database component",
-            "A component that responds to system-wide broadcast announcements",
+            "A component that responds to system-wide broadcasts",
             "A networking component",
             "A testing component"
           ],
@@ -104,88 +116,76 @@
           "explanation": "A BroadcastReceiver is a component that responds to system-wide broadcast announcements."
         },
         {
-          "id": "ab1-9",
+          "id": "ab1-10",
           "questionText": "What is a ContentProvider in Android?",
           "options": [
-            "A UI component",
+            "A database component",
             "A component that manages access to a structured set of data",
             "A networking component",
             "A testing component"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "A ContentProvider manages access to a structured set of data and provides a mechanism for data sharing between applications."
-        },
-        {
-          "id": "ab1-10",
-          "questionText": "What is a RecyclerView in Android?",
-          "options": [
-            "A database component",
-            "A flexible view for displaying a large dataset",
-            "A networking component",
-            "A testing component"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "RecyclerView is a flexible view for displaying a large dataset that can be scrolled efficiently."
+          "explanation": "A ContentProvider is a component that manages access to a structured set of data."
         },
         {
           "id": "ab1-11",
-          "questionText": "What is a ViewGroup in Android?",
+          "questionText": "What is a Manifest in Android?",
           "options": [
-            "A database component",
-            "A container that holds and organizes multiple views",
-            "A networking component",
-            "A testing component"
+            "A database file",
+            "A configuration file",
+            "A networking file",
+            "A testing file"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "ViewGroup is a container that holds and organizes multiple views, managing their layout and appearance."
+          "explanation": "The AndroidManifest.xml is a configuration file that describes essential information about the app."
         },
         {
           "id": "ab1-12",
-          "questionText": "What is a Context in Android?",
+          "questionText": "What is a Resource in Android?",
           "options": [
-            "A database component",
-            "An interface to global information about an application environment",
-            "A networking component",
-            "A testing component"
+            "A database file",
+            "A file that contains app resources",
+            "A networking file",
+            "A testing file"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Context is an interface to global information about an application environment, providing access to resources and system services."
+          "explanation": "A Resource is a file that contains app resources like layouts, strings, and images."
         },
         {
           "id": "ab1-13",
-          "questionText": "What is a Handler in Android?",
+          "questionText": "What is a Drawable in Android?",
           "options": [
             "A database component",
-            "A class that allows you to send and process messages and runnable objects",
+            "A graphic that can be drawn to the screen",
             "A networking component",
             "A testing component"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Handler is a class that allows you to send and process messages and runnable objects associated with a thread's message queue."
+          "explanation": "A Drawable is a graphic that can be drawn to the screen, like images and shapes."
         },
         {
           "id": "ab1-14",
-          "questionText": "What is a Looper in Android?",
+          "questionText": "What is a String Resource in Android?",
           "options": [
             "A database component",
-            "A class that runs a message loop for a thread",
+            "A text string stored in the resources",
             "A networking component",
             "A testing component"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Looper is a class that runs a message loop for a thread, processing messages from a message queue."
+          "explanation": "A String Resource is a text string stored in the resources, allowing for easy localization."
         },
         {
           "id": "ab1-15",
-          "questionText": "What is a Toast in Android?",
+          "questionText": "What is a Color Resource in Android?",
           "options": [
             "A database component",
-            "A view that shows a brief message to the user",
+            "A color value stored in the resources",
             "A networking component",
             "A testing component"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Toast is a view that shows a brief message to the user, appearing for a short duration and then disappearing."
+          "explanation": "A Color Resource is a color value stored in the resources, allowing for consistent colors across the app."
         }
       ]
     },
@@ -197,551 +197,551 @@
       "questions": [
         {
           "id": "ai1-1",
-          "questionText": "What is ViewModel?",
+          "questionText": "What is the purpose of ViewModel?",
           "options": [
-            "A database component",
-            "A component that manages UI-related data",
-            "A networking component",
-            "A testing component"
+            "To handle API calls",
+            "To manage UI-related data",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "ViewModel is a component that manages UI-related data and survives configuration changes."
+          "explanation": "ViewModel is designed to store and manage UI-related data in a lifecycle conscious way."
         },
         {
           "id": "ai1-2",
-          "questionText": "What is LiveData?",
+          "questionText": "What is the purpose of LiveData?",
           "options": [
-            "A database component",
-            "An observable data holder",
-            "A networking component",
-            "A testing component"
+            "To handle API calls",
+            "To provide observable data",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "LiveData is an observable data holder that is lifecycle-aware and can be observed by UI components."
+          "explanation": "LiveData is an observable data holder class that is lifecycle-aware."
         },
         {
           "id": "ai1-3",
-          "questionText": "What is Room?",
+          "questionText": "What is the purpose of Room?",
           "options": [
-            "A UI framework",
-            "A persistence library for SQLite",
-            "A networking library",
-            "A testing framework"
+            "To handle API calls",
+            "To provide an abstraction layer over SQLite",
+            "To handle navigation",
+            "To store data in memory"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Room is a persistence library that provides an abstraction layer over SQLite for local data storage."
+          "explanation": "Room is a persistence library that provides an abstraction layer over SQLite."
         },
         {
           "id": "ai1-4",
-          "questionText": "What is Retrofit?",
+          "questionText": "What is the purpose of WorkManager?",
           "options": [
-            "A database framework",
-            "A type-safe HTTP client",
-            "A UI framework",
-            "A testing framework"
+            "To handle API calls",
+            "To manage deferrable background work",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Retrofit is a type-safe HTTP client for Android that makes it easy to consume RESTful web services."
+          "explanation": "WorkManager is a library for managing deferrable background work that is guaranteed to execute."
         },
         {
           "id": "ai1-5",
-          "questionText": "What is Coroutines?",
+          "questionText": "What is the purpose of Navigation Component?",
           "options": [
-            "A database framework",
-            "A library for asynchronous programming",
-            "A UI framework",
-            "A testing framework"
+            "To handle API calls",
+            "To handle navigation between destinations",
+            "To manage state",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Coroutines is a library that provides a way to write asynchronous code in a sequential manner."
+          "explanation": "Navigation Component is a framework for managing navigation between destinations in an app."
         },
         {
           "id": "ai1-6",
-          "questionText": "What is Dagger Hilt?",
+          "questionText": "What is the purpose of DataStore?",
           "options": [
-            "A database framework",
-            "A dependency injection library built on top of Dagger",
-            "A UI framework",
-            "A testing framework"
+            "To handle API calls",
+            "To store key-value pairs or typed objects",
+            "To handle navigation",
+            "To manage state"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Dagger Hilt is a dependency injection library built on top of Dagger that simplifies dependency injection in Android apps."
+          "explanation": "DataStore is a data storage solution that allows you to store key-value pairs or typed objects."
         },
         {
           "id": "ai1-7",
-          "questionText": "What is Paging 3?",
+          "questionText": "What is the purpose of Hilt?",
           "options": [
-            "A database framework",
-            "A library for loading and displaying large datasets",
-            "A UI framework",
-            "A testing framework"
+            "To handle API calls",
+            "To provide dependency injection",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Paging 3 is a library that helps you load and display large datasets efficiently."
+          "explanation": "Hilt is a dependency injection library for Android that reduces the boilerplate of doing manual dependency injection."
         },
         {
           "id": "ai1-8",
-          "questionText": "What is DataStore?",
+          "questionText": "What is the purpose of Paging?",
           "options": [
-            "A UI framework",
-            "A data storage solution that replaces SharedPreferences",
-            "A networking library",
-            "A testing framework"
+            "To handle API calls",
+            "To load and display pages of data",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "DataStore is a data storage solution that replaces SharedPreferences, providing a more robust way to store key-value pairs."
+          "explanation": "Paging is a library that helps you load and display pages of data from a larger dataset."
         },
         {
           "id": "ai1-9",
-          "questionText": "What is Navigation Component?",
+          "questionText": "What is the purpose of Lifecycle?",
           "options": [
-            "A database framework",
-            "A framework for handling navigation between destinations",
-            "A UI framework",
-            "A testing framework"
+            "To handle API calls",
+            "To manage lifecycle-aware components",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Navigation Component is a framework that helps implement navigation between destinations in an app."
+          "explanation": "Lifecycle is a library that helps you manage lifecycle-aware components."
         },
         {
           "id": "ai1-10",
-          "questionText": "What is WorkManager?",
+          "questionText": "What is the purpose of SavedState?",
           "options": [
-            "A database framework",
-            "A library for managing background tasks",
-            "A UI framework",
-            "A testing framework"
+            "To handle API calls",
+            "To save and restore UI state",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "WorkManager is a library that helps manage background tasks that need to run even if the app is closed."
+          "explanation": "SavedState is a library that helps you save and restore UI state across process recreation."
         },
         {
           "id": "ai1-11",
-          "questionText": "What is Hilt?",
+          "questionText": "What is the purpose of Security?",
           "options": [
-            "A database framework",
-            "A dependency injection library built on top of Dagger",
-            "A UI framework",
-            "A testing framework"
+            "To handle API calls",
+            "To provide security features",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Hilt is a dependency injection library built on top of Dagger that simplifies dependency injection in Android apps."
+          "explanation": "Security is a library that provides security features for Android apps."
         },
         {
           "id": "ai1-12",
-          "questionText": "What is Navigation Component?",
+          "questionText": "What is the purpose of AppCompat?",
           "options": [
-            "A database framework",
-            "A framework for handling navigation between destinations",
-            "A UI framework",
-            "A testing framework"
+            "To handle API calls",
+            "To provide backward compatibility",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Navigation Component is a framework that helps implement navigation between destinations in an app."
+          "explanation": "AppCompat is a library that provides backward compatibility for newer Android features."
         },
         {
           "id": "ai1-13",
-          "questionText": "What is DataStore?",
+          "questionText": "What is the purpose of Material Components?",
           "options": [
-            "A UI framework",
-            "A data storage solution that replaces SharedPreferences",
-            "A networking library",
-            "A testing framework"
+            "To handle API calls",
+            "To provide Material Design components",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "DataStore is a data storage solution that replaces SharedPreferences, providing a more robust way to store key-value pairs."
+          "explanation": "Material Components is a library that provides Material Design components for Android apps."
         },
         {
           "id": "ai1-14",
-          "questionText": "What is CameraX?",
+          "questionText": "What is the purpose of ConstraintLayout?",
           "options": [
-            "A database framework",
-            "A library for camera functionality",
-            "A UI framework",
-            "A testing framework"
+            "To handle API calls",
+            "To create complex layouts",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "CameraX is a library that helps implement camera functionality in Android apps with less boilerplate code."
+          "explanation": "ConstraintLayout is a layout that allows you to create complex layouts with a flat view hierarchy."
         },
         {
           "id": "ai1-15",
-          "questionText": "What is App Bundle?",
+          "questionText": "What is the purpose of RecyclerView?",
           "options": [
-            "A database format",
-            "A publishing format for Android apps",
-            "A UI format",
-            "A testing format"
+            "To handle API calls",
+            "To display scrollable lists",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "App Bundle is a publishing format that allows Google Play to generate optimized APKs for different device configurations."
+          "explanation": "RecyclerView is a view for displaying scrollable lists of items."
         },
         {
           "id": "ai1-16",
-          "questionText": "What is Dynamic Feature Modules?",
+          "questionText": "What is the purpose of ViewBinding?",
           "options": [
-            "A database feature",
-            "A way to split an app into smaller modules",
-            "A UI feature",
-            "A testing feature"
+            "To handle API calls",
+            "To bind views to code",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Dynamic Feature Modules allow you to split your app into smaller modules that can be downloaded on demand."
+          "explanation": "ViewBinding is a feature that allows you to bind views to code without using findViewById."
         },
         {
           "id": "ai1-17",
-          "questionText": "What is Android App Links?",
+          "questionText": "What is the purpose of DataBinding?",
           "options": [
-            "A database feature",
-            "A way to associate your app with a website",
-            "A UI feature",
-            "A testing feature"
+            "To handle API calls",
+            "To bind data to views",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android App Links allow you to associate your app with a website, enabling deep linking and better user experience."
+          "explanation": "DataBinding is a library that allows you to bind data to views in a declarative way."
         },
         {
           "id": "ai1-18",
-          "questionText": "What is Android App Bundle?",
+          "questionText": "What is the purpose of Coroutines?",
           "options": [
-            "A database format",
-            "A publishing format that reduces app size",
-            "A UI format",
-            "A testing format"
+            "To handle API calls",
+            "To handle asynchronous programming",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android App Bundle is a publishing format that helps reduce app size by generating optimized APKs for different device configurations."
+          "explanation": "Coroutines is a library for handling asynchronous programming in a more structured way."
         },
         {
           "id": "ai1-19",
-          "questionText": "What is Android Jetpack?",
+          "questionText": "What is the purpose of Flow?",
           "options": [
-            "A database framework",
-            "A set of libraries, tools, and architectural guidance",
-            "A UI framework",
-            "A testing framework"
+            "To handle API calls",
+            "To handle streams of data",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android Jetpack is a set of libraries, tools, and architectural guidance to help developers build high-quality apps."
+          "explanation": "Flow is a library for handling streams of data in a reactive way."
         },
         {
           "id": "ai1-20",
-          "questionText": "What is Android Architecture Components?",
+          "questionText": "What is the purpose of StateFlow?",
           "options": [
-            "A database framework",
-            "A collection of libraries that help design robust, testable, and maintainable apps",
-            "A UI framework",
-            "A testing framework"
+            "To handle API calls",
+            "To handle state in a reactive way",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android Architecture Components are a collection of libraries that help design robust, testable, and maintainable apps."
+          "explanation": "StateFlow is a library for handling state in a reactive way, similar to LiveData but with more features."
         }
       ]
     },
     {
       "id": "android_advanced_1",
       "title": "Android Advanced",
-      "description": "Advanced Android development concepts and best practices",
+      "description": "Advanced concepts in Android development",
       "difficulty": "Advanced",
       "questions": [
         {
-          "id": "aaa1-1",
-          "questionText": "What is Jetpack Compose?",
+          "id": "aa1-1",
+          "questionText": "What is the purpose of the Android Architecture Components?",
           "options": [
-            "A database framework",
-            "A modern UI toolkit",
-            "A networking library",
-            "A testing framework"
+            "To handle API calls",
+            "To provide a collection of libraries for building robust apps",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Jetpack Compose is a modern UI toolkit for building native Android UI using Kotlin."
+          "explanation": "Android Architecture Components is a collection of libraries that help you design robust, testable, and maintainable apps."
         },
         {
-          "id": "aaa1-2",
-          "questionText": "What is Hilt?",
+          "id": "aa1-2",
+          "questionText": "What is the purpose of the Android Jetpack?",
           "options": [
-            "A database framework",
-            "A dependency injection library",
-            "A UI framework",
-            "A testing framework"
+            "To handle API calls",
+            "To provide a suite of libraries for building modern apps",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Hilt is a dependency injection library for Android that reduces boilerplate code."
+          "explanation": "Android Jetpack is a suite of libraries that help you build modern, high-quality apps."
         },
         {
-          "id": "aaa1-3",
-          "questionText": "What is WorkManager?",
+          "id": "aa1-3",
+          "questionText": "What is the purpose of the Android App Bundle?",
           "options": [
-            "A database framework",
-            "A library for background tasks",
-            "A UI framework",
-            "A testing framework"
+            "To handle API calls",
+            "To optimize app delivery",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "WorkManager is a library that helps manage background tasks that need to run even if the app is closed."
+          "explanation": "Android App Bundle is a publishing format that optimizes app delivery by generating optimized APKs for each device configuration."
         },
         {
-          "id": "aaa1-4",
-          "questionText": "What is Navigation Component?",
+          "id": "aa1-4",
+          "questionText": "What is the purpose of the Android Dynamic Delivery?",
           "options": [
-            "A database framework",
-            "A framework for app navigation",
-            "A UI framework",
-            "A testing framework"
+            "To handle API calls",
+            "To deliver app features on demand",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Navigation Component is a framework that helps implement navigation between destinations in an app."
+          "explanation": "Android Dynamic Delivery is a feature that allows you to deliver app features on demand, reducing the initial app size."
         },
         {
-          "id": "aaa1-5",
-          "questionText": "What is DataStore?",
+          "id": "aa1-5",
+          "questionText": "What is the purpose of the Android Dynamic Feature Module?",
           "options": [
-            "A UI framework",
-            "A data storage solution",
-            "A networking library",
-            "A testing framework"
+            "To handle API calls",
+            "To deliver app features on demand",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "DataStore is a data storage solution that provides a more robust way to store key-value pairs and typed objects."
+          "explanation": "Android Dynamic Feature Module is a module that can be delivered on demand, reducing the initial app size."
         },
         {
-          "id": "aaa1-6",
-          "questionText": "What is CameraX?",
+          "id": "aa1-6",
+          "questionText": "What is the purpose of the Android Play Core Library?",
           "options": [
-            "A database framework",
-            "A library for camera functionality",
-            "A UI framework",
-            "A testing framework"
+            "To handle API calls",
+            "To integrate with Google Play services",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "CameraX is a library that helps implement camera functionality in Android apps with less boilerplate code."
+          "explanation": "Android Play Core Library is a library that helps you integrate with Google Play services, like in-app updates and dynamic delivery."
         },
         {
-          "id": "aaa1-7",
-          "questionText": "What is App Bundle?",
+          "id": "aa1-7",
+          "questionText": "What is the purpose of the Android Play Billing Library?",
           "options": [
-            "A database format",
-            "A publishing format for Android apps",
-            "A UI format",
-            "A testing format"
+            "To handle API calls",
+            "To integrate with Google Play Billing",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "App Bundle is a publishing format that allows Google Play to generate optimized APKs for different device configurations."
+          "explanation": "Android Play Billing Library is a library that helps you integrate with Google Play Billing, allowing you to sell in-app products and subscriptions."
         },
         {
-          "id": "aaa1-8",
-          "questionText": "What is Dynamic Feature Modules?",
+          "id": "aa1-8",
+          "questionText": "What is the purpose of the Android Play Games Services?",
           "options": [
-            "A database feature",
-            "A way to split an app into smaller modules",
-            "A UI feature",
-            "A testing feature"
+            "To handle API calls",
+            "To integrate with Google Play Games",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Dynamic Feature Modules allow you to split your app into smaller modules that can be downloaded on demand."
+          "explanation": "Android Play Games Services is a library that helps you integrate with Google Play Games, allowing you to add social and competitive features to your games."
         },
         {
-          "id": "aaa1-9",
-          "questionText": "What is Android App Links?",
+          "id": "aa1-9",
+          "questionText": "What is the purpose of the Android Play Services?",
           "options": [
-            "A database feature",
-            "A way to associate your app with a website",
-            "A UI feature",
-            "A testing feature"
+            "To handle API calls",
+            "To integrate with Google Play services",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android App Links allow you to associate your app with a website, enabling deep linking and better user experience."
+          "explanation": "Android Play Services is a library that helps you integrate with Google Play services, like Maps, Location, and Analytics."
         },
         {
-          "id": "aaa1-10",
-          "questionText": "What is Android App Bundle?",
+          "id": "aa1-10",
+          "questionText": "What is the purpose of the Android Firebase?",
           "options": [
-            "A database format",
-            "A publishing format that reduces app size",
-            "A UI format",
-            "A testing format"
+            "To handle API calls",
+            "To integrate with Firebase services",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android App Bundle is a publishing format that helps reduce app size by generating optimized APKs for different device configurations."
+          "explanation": "Android Firebase is a library that helps you integrate with Firebase services, like Authentication, Firestore, and Cloud Messaging."
         },
         {
-          "id": "aaa1-11",
-          "questionText": "What is Android Performance Profiler?",
+          "id": "aa1-11",
+          "questionText": "What is the purpose of the Android ML Kit?",
           "options": [
-            "A database tool",
-            "A tool for analyzing app performance",
-            "A UI tool",
-            "A testing tool"
+            "To handle API calls",
+            "To integrate with machine learning features",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android Performance Profiler is a tool that helps analyze app performance, including CPU, memory, network, and battery usage."
+          "explanation": "Android ML Kit is a library that helps you integrate with machine learning features, like text recognition and face detection."
         },
         {
-          "id": "aaa1-12",
-          "questionText": "What is Android Memory Profiler?",
+          "id": "aa1-12",
+          "questionText": "What is the purpose of the Android CameraX?",
           "options": [
-            "A database tool",
-            "A tool for analyzing memory usage",
-            "A UI tool",
-            "A testing tool"
+            "To handle API calls",
+            "To integrate with the device camera",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android Memory Profiler is a tool that helps identify memory leaks and memory churn in your app."
+          "explanation": "Android CameraX is a library that helps you integrate with the device camera, providing a consistent and easy-to-use API."
         },
         {
-          "id": "aaa1-13",
-          "questionText": "What is Android CPU Profiler?",
+          "id": "aa1-13",
+          "questionText": "What is the purpose of the Android Biometric?",
           "options": [
-            "A database tool",
-            "A tool for analyzing CPU usage",
-            "A UI tool",
-            "A testing tool"
+            "To handle API calls",
+            "To integrate with biometric authentication",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android CPU Profiler is a tool that helps analyze CPU usage and identify performance bottlenecks."
+          "explanation": "Android Biometric is a library that helps you integrate with biometric authentication, like fingerprint and face recognition."
         },
         {
-          "id": "aaa1-14",
-          "questionText": "What is Android Network Profiler?",
+          "id": "aa1-14",
+          "questionText": "What is the purpose of the Android Security?",
           "options": [
-            "A database tool",
-            "A tool for analyzing network usage",
-            "A UI tool",
-            "A testing tool"
+            "To handle API calls",
+            "To provide security features",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android Network Profiler is a tool that helps analyze network usage and identify network-related issues."
+          "explanation": "Android Security is a library that provides security features, like encryption and secure storage."
         },
         {
-          "id": "aaa1-15",
-          "questionText": "What is Android Battery Profiler?",
+          "id": "aa1-15",
+          "questionText": "What is the purpose of the Android App Links?",
           "options": [
-            "A database tool",
-            "A tool for analyzing battery usage",
-            "A UI tool",
-            "A testing tool"
+            "To handle API calls",
+            "To integrate with app links",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android Battery Profiler is a tool that helps analyze battery usage and identify battery-draining issues."
+          "explanation": "Android App Links is a feature that allows you to integrate with app links, allowing users to open your app directly from a link."
         },
         {
-          "id": "aaa1-16",
-          "questionText": "What is Android Layout Inspector?",
+          "id": "aa1-16",
+          "questionText": "What is the purpose of the Android Deep Links?",
           "options": [
-            "A database tool",
-            "A tool for inspecting and debugging layouts",
-            "A UI tool",
-            "A testing tool"
+            "To handle API calls",
+            "To integrate with deep links",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android Layout Inspector is a tool that helps inspect and debug layouts in real-time."
+          "explanation": "Android Deep Links is a feature that allows you to integrate with deep links, allowing users to open your app directly from a link."
         },
         {
-          "id": "aaa1-17",
-          "questionText": "What is Android APK Analyzer?",
+          "id": "aa1-17",
+          "questionText": "What is the purpose of the Android App Shortcuts?",
           "options": [
-            "A database tool",
-            "A tool for analyzing APK contents",
-            "A UI tool",
-            "A testing tool"
+            "To handle API calls",
+            "To integrate with app shortcuts",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android APK Analyzer is a tool that helps analyze APK contents and identify size issues."
+          "explanation": "Android App Shortcuts is a feature that allows you to integrate with app shortcuts, allowing users to quickly access specific features of your app."
         },
         {
-          "id": "aaa1-18",
-          "questionText": "What is Android Dynamic Delivery?",
+          "id": "aa1-18",
+          "questionText": "What is the purpose of the Android App Widgets?",
           "options": [
-            "A database feature",
-            "A feature for delivering app features on demand",
-            "A UI feature",
-            "A testing feature"
+            "To handle API calls",
+            "To integrate with app widgets",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android Dynamic Delivery is a feature that allows delivering app features on demand, reducing initial app size."
+          "explanation": "Android App Widgets is a feature that allows you to integrate with app widgets, allowing users to access your app's features from the home screen."
         },
         {
-          "id": "aaa1-19",
-          "questionText": "What is Android Play Core Library?",
+          "id": "aa1-19",
+          "questionText": "What is the purpose of the Android App Actions?",
           "options": [
-            "A database library",
-            "A library for implementing Play Store features",
-            "A UI library",
-            "A testing library"
+            "To handle API calls",
+            "To integrate with app actions",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android Play Core Library is a library that helps implement Play Store features like in-app updates and dynamic delivery."
+          "explanation": "Android App Actions is a feature that allows you to integrate with app actions, allowing users to access your app's features from Google Search and the Google Assistant."
         },
         {
-          "id": "aaa1-20",
-          "questionText": "What is Android App Links?",
+          "id": "aa1-20",
+          "questionText": "What is the purpose of the Android App Slices?",
           "options": [
-            "A database feature",
-            "A feature for deep linking and app indexing",
-            "A UI feature",
-            "A testing feature"
+            "To handle API calls",
+            "To integrate with app slices",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android App Links is a feature that allows your app to handle web links and appear in Google Search results."
+          "explanation": "Android App Slices is a feature that allows you to integrate with app slices, allowing users to access your app's features from Google Search and the Google Assistant."
         },
         {
-          "id": "aaa1-21",
-          "questionText": "What is Android Instant Apps?",
+          "id": "aa1-21",
+          "questionText": "What is the purpose of the Android Performance Profiler?",
           "options": [
-            "A database feature",
-            "A feature for running apps without installation",
-            "A UI feature",
-            "A testing feature"
+            "To handle API calls",
+            "To analyze app performance",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android Instant Apps allows users to run apps without installation, providing a seamless experience."
+          "explanation": "Android Performance Profiler is a tool that helps you analyze your app's performance, including CPU, memory, and network usage."
         },
         {
-          "id": "aaa1-22",
-          "questionText": "What is Android App Signing?",
+          "id": "aa1-22",
+          "questionText": "What is the purpose of the Android Memory Profiler?",
           "options": [
-            "A database feature",
-            "A feature for securing app distribution",
-            "A UI feature",
-            "A testing feature"
+            "To handle API calls",
+            "To analyze memory usage",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android App Signing is a feature that helps secure app distribution by managing app signing keys."
+          "explanation": "Android Memory Profiler is a tool that helps you analyze your app's memory usage and identify memory leaks."
         },
         {
-          "id": "aaa1-23",
-          "questionText": "What is Android Play Console?",
+          "id": "aa1-23",
+          "questionText": "What is the purpose of the Android CPU Profiler?",
           "options": [
-            "A database tool",
-            "A platform for managing app distribution",
-            "A UI tool",
-            "A testing tool"
+            "To handle API calls",
+            "To analyze CPU usage",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android Play Console is a platform for managing app distribution, analytics, and user feedback."
+          "explanation": "Android CPU Profiler is a tool that helps you analyze your app's CPU usage and identify performance bottlenecks."
         },
         {
-          "id": "aaa1-24",
-          "questionText": "What is Android Play Billing?",
+          "id": "aa1-24",
+          "questionText": "What is the purpose of the Android Network Profiler?",
           "options": [
-            "A database library",
-            "A library for implementing in-app purchases",
-            "A UI library",
-            "A testing library"
+            "To handle API calls",
+            "To analyze network usage",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android Play Billing is a library that helps implement in-app purchases and subscriptions."
+          "explanation": "Android Network Profiler is a tool that helps you analyze your app's network usage and identify network-related issues."
         },
         {
-          "id": "aaa1-25",
-          "questionText": "What is Android Play Games Services?",
+          "id": "aa1-25",
+          "questionText": "What is the purpose of the Android Energy Profiler?",
           "options": [
-            "A database service",
-            "A service for implementing game features",
-            "A UI service",
-            "A testing service"
+            "To handle API calls",
+            "To analyze battery usage",
+            "To handle navigation",
+            "To store data locally"
           ],
           "correctAnswerIndex": 1,
-          "explanation": "Android Play Games Services is a service that helps implement game features like achievements and leaderboards."
+          "explanation": "Android Energy Profiler is a tool that helps you analyze your app's battery usage and identify energy-related issues."
         }
       ]
     }

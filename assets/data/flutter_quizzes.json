@@ -565,114 +565,6 @@
         },
         {
           "id": "fa1-11",
-          "questionText": "What is the purpose of Flutter's Layer tree?",
-          "options": [
-            "To handle database layers",
-            "To optimize rendering by compositing layers",
-            "To handle network layers",
-            "To handle file layers"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "The Layer tree optimizes rendering by compositing layers, allowing for efficient updates and animations."
-        },
-        {
-          "id": "fa1-12",
-          "questionText": "What is the purpose of Flutter's RenderObject?",
-          "options": [
-            "To handle database rendering",
-            "To handle the actual rendering of widgets",
-            "To handle network rendering",
-            "To handle file rendering"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "RenderObject is the base class for objects that handle the actual rendering of widgets, managing layout and painting."
-        },
-        {
-          "id": "fa1-13",
-          "questionText": "What is the purpose of Flutter's Element tree?",
-          "options": [
-            "To handle database elements",
-            "To maintain the widget tree and handle widget lifecycle",
-            "To handle network elements",
-            "To handle file elements"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "The Element tree maintains the widget tree and handles widget lifecycle, acting as an intermediary between Widget and RenderObject trees."
-        },
-        {
-          "id": "fa1-14",
-          "questionText": "What is the purpose of Flutter's WidgetsBinding?",
-          "options": [
-            "To handle database bindings",
-            "To handle the binding between the Flutter engine and the framework",
-            "To handle network bindings",
-            "To handle file bindings"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "WidgetsBinding handles the binding between the Flutter engine and the framework, managing the widget lifecycle and system events."
-        },
-        {
-          "id": "fa1-15",
-          "questionText": "What is the purpose of Flutter's Semantics?",
-          "options": [
-            "To handle database semantics",
-            "To provide accessibility information to the framework",
-            "To handle network semantics",
-            "To handle file semantics"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "Semantics provides accessibility information to the framework, making apps accessible to users with disabilities."
-        },
-        {
-          "id": "fa1-16",
-          "questionText": "What is the purpose of Flutter's Platform Channels?",
-          "options": [
-            "To handle database channels",
-            "To communicate between Flutter and platform-specific code",
-            "To handle network channels",
-            "To handle file channels"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "Platform Channels allow Flutter to communicate with platform-specific code (Android/iOS) to access native features and APIs."
-        },
-        {
-          "id": "fa1-17",
-          "questionText": "What is the purpose of Flutter's Isolate?",
-          "options": [
-            "To handle database isolation",
-            "To run code in a separate thread",
-            "To handle network isolation",
-            "To handle file isolation"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "Isolate allows you to run code in a separate thread, useful for CPU-intensive tasks that shouldn't block the main thread."
-        },
-        {
-          "id": "fa1-18",
-          "questionText": "What is the purpose of Flutter's CustomPainter?",
-          "options": [
-            "To handle database painting",
-            "To create custom graphics and animations",
-            "To handle network painting",
-            "To handle file painting"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "CustomPainter is a class that allows you to create custom graphics and animations by painting on a canvas."
-        },
-        {
-          "id": "fa1-19",
-          "questionText": "What is the purpose of Flutter's InheritedWidget?",
-          "options": [
-            "To handle database inheritance",
-            "To efficiently propagate data down the widget tree",
-            "To handle network inheritance",
-            "To handle file inheritance"
-          ],
-          "correctAnswerIndex": 1,
-          "explanation": "InheritedWidget is a base class that allows efficient propagation of data down the widget tree without manually passing it through constructors."
-        },
-        {
-          "id": "fa1-20",
           "questionText": "What is the purpose of Flutter's RenderBox?",
           "options": [
             "To handle database boxes",
@@ -684,7 +576,7 @@
           "explanation": "RenderBox implements the box layout model, which is the most common layout model in Flutter."
         },
         {
-          "id": "fa1-21",
+          "id": "fa1-12",
           "questionText": "What is the purpose of Flutter's RenderSliver?",
           "options": [
             "To handle database slivers",
@@ -696,7 +588,7 @@
           "explanation": "RenderSliver implements the sliver layout model, which is used for scrollable views that can have variable-sized children."
         },
         {
-          "id": "fa1-22",
+          "id": "fa1-13",
           "questionText": "What is the purpose of Flutter's RenderView?",
           "options": [
             "To handle database views",
@@ -708,7 +600,7 @@
           "explanation": "RenderView is the root of the render tree, responsible for sizing and positioning the entire render tree."
         },
         {
-          "id": "fa1-23",
+          "id": "fa1-14",
           "questionText": "What is the purpose of Flutter's RenderRepaintBoundary?",
           "options": [
             "To handle database repainting",
@@ -720,7 +612,7 @@
           "explanation": "RenderRepaintBoundary creates a boundary that can be repainted independently, useful for optimizing rendering performance."
         },
         {
-          "id": "fa1-24",
+          "id": "fa1-15",
           "questionText": "What is the purpose of Flutter's RenderOffstage?",
           "options": [
             "To handle database offstage rendering",
@@ -732,7 +624,7 @@
           "explanation": "RenderOffstage renders a child without affecting the layout, useful for widgets that need to be rendered but not laid out."
         },
         {
-          "id": "fa1-25",
+          "id": "fa1-16",
           "questionText": "What is the purpose of Flutter's RenderProxyBox?",
           "options": [
             "To handle database proxy boxes",
@@ -742,6 +634,114 @@
           ],
           "correctAnswerIndex": 1,
           "explanation": "RenderProxyBox creates a proxy for a single child render box, allowing you to modify the child's layout and painting behavior."
+        },
+        {
+          "id": "fa1-17",
+          "questionText": "What is the purpose of Flutter's RenderStack?",
+          "options": [
+            "To handle database stacks",
+            "To implement a stack layout model",
+            "To handle network stacks",
+            "To handle file stacks"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "RenderStack implements a stack layout model, positioning children relative to the edges of the box."
+        },
+        {
+          "id": "fa1-18",
+          "questionText": "What is the purpose of Flutter's RenderFlex?",
+          "options": [
+            "To handle database flex layouts",
+            "To implement a flex layout model",
+            "To handle network flex layouts",
+            "To handle file flex layouts"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "RenderFlex implements a flex layout model, used by Row and Column widgets to arrange children in a flexible manner."
+        },
+        {
+          "id": "fa1-19",
+          "questionText": "What is the purpose of Flutter's RenderPositionedBox?",
+          "options": [
+            "To handle database positioned boxes",
+            "To position a child relative to its parent",
+            "To handle network positioned boxes",
+            "To handle file positioned boxes"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "RenderPositionedBox positions a child relative to its parent, used by Positioned widget in Stack."
+        },
+        {
+          "id": "fa1-20",
+          "questionText": "What is the purpose of Flutter's RenderConstrainedBox?",
+          "options": [
+            "To handle database constrained boxes",
+            "To impose additional constraints on its child",
+            "To handle network constrained boxes",
+            "To handle file constrained boxes"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "RenderConstrainedBox imposes additional constraints on its child, used by ConstrainedBox widget."
+        },
+        {
+          "id": "fa1-21",
+          "questionText": "What is the purpose of Flutter's RenderDecoratedBox?",
+          "options": [
+            "To handle database decorated boxes",
+            "To paint a decoration around its child",
+            "To handle network decorated boxes",
+            "To handle file decorated boxes"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "RenderDecoratedBox paints a decoration around its child, used by DecoratedBox widget."
+        },
+        {
+          "id": "fa1-22",
+          "questionText": "What is the purpose of Flutter's RenderTransform?",
+          "options": [
+            "To handle database transformations",
+            "To apply a transformation matrix to its child",
+            "To handle network transformations",
+            "To handle file transformations"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "RenderTransform applies a transformation matrix to its child, used by Transform widget."
+        },
+        {
+          "id": "fa1-23",
+          "questionText": "What is the purpose of Flutter's RenderOpacity?",
+          "options": [
+            "To handle database opacity",
+            "To make its child partially transparent",
+            "To handle network opacity",
+            "To handle file opacity"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "RenderOpacity makes its child partially transparent, used by Opacity widget."
+        },
+        {
+          "id": "fa1-24",
+          "questionText": "What is the purpose of Flutter's RenderClipRect?",
+          "options": [
+            "To handle database clipping",
+            "To clip its child using a rectangle",
+            "To handle network clipping",
+            "To handle file clipping"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "RenderClipRect clips its child using a rectangle, used by ClipRect widget."
+        },
+        {
+          "id": "fa1-25",
+          "questionText": "What is the purpose of Flutter's RenderClipPath?",
+          "options": [
+            "To handle database path clipping",
+            "To clip its child using a custom path",
+            "To handle network path clipping",
+            "To handle file path clipping"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "RenderClipPath clips its child using a custom path, used by ClipPath widget."
         }
       ]
     }
