@@ -1,46 +1,170 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../providers/quiz_provider.dart';
 import '../models/quiz_model.dart';
 import 'quiz_screen.dart';
+import 'category_detail_screen.dart' as detail;
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
   @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  List<Category> categories = [];
+  bool isLoading = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadCategories();
+  }
+
+  Future<void> _loadCategories() async {
+    try {
+      final String jsonString =
+          await rootBundle.loadString('assets/data/categories.json');
+      final Map<String, dynamic> jsonData = json.decode(jsonString);
+      final List<dynamic> categoriesJson = jsonData['categories'];
+
+      setState(() {
+        categories =
+            categoriesJson.map((json) => Category.fromJson(json)).toList();
+        isLoading = false;
+      });
+    } catch (e) {
+      print('Error loading categories: $e');
+      setState(() {
+        isLoading = false;
+      });
+    }
+  }
+
+  @override
   Widget build(BuildContext context) {
+    if (isLoading) {
+      return const Scaffold(
+        body: Center(
+          child: CircularProgressIndicator(),
+        ),
+      );
+    }
+
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          'Quiz Learning App',
-          style: GoogleFonts.poppins(
-            fontWeight: FontWeight.bold,
-          ),
-        ),
+        title: const Text('Quiz Learning App'),
         centerTitle: true,
-        elevation: 0,
       ),
-      body: Consumer<QuizProvider>(
-        builder: (context, quizProvider, child) {
-          final quizzes = quizProvider.quizzes;
-          
-          if (quizzes.isEmpty) {
-            return const Center(
-              child: CircularProgressIndicator(),
-            );
-          }
-
-          return ListView.builder(
-            padding: const EdgeInsets.all(16),
-            itemCount: quizzes.length,
-            itemBuilder: (context, index) {
-              final quiz = quizzes[index];
-              return QuizCard(quiz: quiz);
-            },
-          );
+      body: GridView.builder(
+        padding: const EdgeInsets.all(16),
+        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: 2,
+          childAspectRatio: 1,
+          crossAxisSpacing: 16,
+          mainAxisSpacing: 16,
+        ),
+        itemCount: categories.length,
+        itemBuilder: (context, index) {
+          final category = categories[index];
+          return CategoryCard(category: category);
         },
       ),
+    );
+  }
+}
+
+class CategoryCard extends StatelessWidget {
+  final Category category;
+
+  const CategoryCard({
+    super.key,
+    required this.category,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      elevation: 4,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(12),
+      ),
+      child: InkWell(
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) =>
+                  detail.CategoryDetailScreen(category: category),
+            ),
+          );
+        },
+        borderRadius: BorderRadius.circular(12),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            // TODO: Add category icon
+            const Icon(
+              Icons.code,
+              size: 48,
+              color: Colors.blue,
+            ),
+            const SizedBox(height: 16),
+            Text(
+              category.name,
+              style: const TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+              ),
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 8),
+            Text(
+              category.description,
+              style: const TextStyle(
+                fontSize: 12,
+                color: Colors.grey,
+              ),
+              textAlign: TextAlign.center,
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class Category {
+  final String id;
+  final String name;
+  final String description;
+  final String icon;
+  final List<String> difficultyLevels;
+  final String quizFile;
+
+  Category({
+    required this.id,
+    required this.name,
+    required this.description,
+    required this.icon,
+    required this.difficultyLevels,
+    required this.quizFile,
+  });
+
+  factory Category.fromJson(Map<String, dynamic> json) {
+    return Category(
+      id: json['id'],
+      name: json['name'],
+      description: json['description'],
+      icon: json['icon'],
+      difficultyLevels: List<String>.from(json['difficultyLevels']),
+      quizFile: json['quizFile'],
     );
   }
 }
@@ -167,4 +291,4 @@ class QuizCard extends StatelessWidget {
         return Colors.blue;
     }
   }
-} 
+}

@@ -1,0 +1,101 @@
+{
+  "category": "Flutter",
+  "quizzes": [
+    {
+      "id": "flutter_beginner_1",
+      "title": "Flutter Basics",
+      "description": "Test your knowledge of Flutter fundamentals",
+      "difficulty": "Beginner",
+      "questions": [
+        {
+          "id": "fb1-1",
+          "questionText": "What is Flutter?",
+          "options": [
+            "A programming language",
+            "A UI framework for building cross-platform applications",
+            "A database management system",
+            "An operating system"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Flutter is a UI framework developed by Google for building natively compiled applications for mobile, web, and desktop from a single codebase."
+        },
+        {
+          "id": "fb1-2",
+          "questionText": "Which widget is used to create a scrollable list in Flutter?",
+          "options": [
+            "Container",
+            "ListView",
+            "Column",
+            "Row"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "ListView is a scrollable list of widgets arranged linearly."
+        }
+      ]
+    },
+    {
+      "id": "flutter_intermediate_1",
+      "title": "Flutter Intermediate",
+      "description": "Intermediate concepts in Flutter",
+      "difficulty": "Intermediate",
+      "questions": [
+        {
+          "id": "fi1-1",
+          "questionText": "What is a Future in Flutter?",
+          "options": [
+            "A widget that displays a future date",
+            "A class representing a value or error that will be available at some time in the future",
+            "A function that runs in the future",
+            "A state management solution"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A Future in Dart (Flutter) is a class representing a value or error that will be available at some time in the future."
+        },
+        {
+          "id": "fi1-2",
+          "questionText": "Which package is commonly used for state management in Flutter?",
+          "options": [
+            "http",
+            "provider",
+            "sqflite",
+            "shared_preferences"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Provider is a popular package for state management in Flutter."
+        }
+      ]
+    },
+    {
+      "id": "flutter_advanced_1",
+      "title": "Flutter Advanced",
+      "description": "Advanced Flutter concepts and best practices",
+      "difficulty": "Advanced",
+      "questions": [
+        {
+          "id": "fa1-1",
+          "questionText": "What is a Flutter isolate?",
+          "options": [
+            "A widget that isolates a portion of the UI",
+            "A separate execution thread that runs Dart code concurrently",
+            "A state management solution",
+            "A Flutter plugin"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A Flutter isolate is a separate execution thread that runs Dart code concurrently, allowing parallel execution without blocking the main thread."
+        },
+        {
+          "id": "fa1-2",
+          "questionText": "Which Flutter widget is used for custom painting?",
+          "options": [
+            "CustomPaint",
+            "CustomScrollView",
+            "CustomSingleChildLayout",
+            "CustomMultiChildLayout"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "CustomPaint is a widget that provides a canvas on which to draw during the paint phase."
+        }
+      ]
+    }
+  ]
+} 
